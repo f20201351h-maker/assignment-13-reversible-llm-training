@@ -1,0 +1,7 @@
+# Locked-backend capacity replication
+
+Preregistered before this separate capacity campaign. Protocol 06 confirms full training with explicit efficient SDPA, but the original observed maximum-batch boundaries were measured with automatic dispatch. Repeat the original four searches under the explicit efficient policy so final capacity claims need no unmeasured transfer assumption.
+
+Use the unchanged exponential search followed by integer binary refinement up to batch 256. Every trial is a fresh process that allocates optimizer state and performs real forward/backward/AdamW updates. Confirm the largest stable batch in three additional fresh 20-update trials and one sustained 200-update trial. Preserve the smallest observed OOM and complete stdout/stderr trace for failure-phase inspection. Record actual backend operators, GPU UUID, free memory, allocator, precision and software metadata in every successful trial.
+
+The four conditions are conventional stored, conventional checkpointed, coupled Euler stored and coupled Euler reconstructed (h=0.5). Two independent workers may search separate GPUs. Search throughput is diagnostic; isolated throughput remains protocol 03/06. Compare boundaries to the original 110/111, 181/182, 110/111 and 192/193 pairs. A difference is evidence to report and investigate, not a reason to discard either campaign. If a locked boundary is below its full-run proposed batch, revisit the affected capacity/assignment claim with new experiment IDs. All trial targets are excluded from committed-training totals.

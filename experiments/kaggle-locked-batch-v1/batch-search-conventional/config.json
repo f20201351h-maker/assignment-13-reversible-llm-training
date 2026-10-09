@@ -1,0 +1,15 @@
+{
+  "run_id": "batch-search-conventional",
+  "model": {
+    "integrator": "conventional",
+    "backward_mode": "stored",
+    "step_size": 0.5
+  },
+  "data_dir": "/kaggle/input/datasets/KAGGLE_USER/revllm-session13-assets",
+  "out_dir": "/kaggle/working/batch-search-conventional",
+  "physical_batch": 1,
+  "effective_batch": 1,
+  "seed": 1337,
+  "use_amp": true,
+  "attention_backend": "efficient"
+}

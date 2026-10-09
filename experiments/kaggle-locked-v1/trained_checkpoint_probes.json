@@ -1,0 +1,38 @@
+[
+  {
+    "run_id": "A-L-1337",
+    "status": "NOT_REVERSIBLE"
+  },
+  {
+    "run_id": "B-L-1337",
+    "integrator": "coupled_euler",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 50000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 1.1317856660753023e-06,
+    "reconstruction": {
+      "relative_reconstruction_error": 6.934181584483667e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "D-L-1337",
+    "integrator": "coupled_euler",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 50000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 1.2558640491988626e-06,
+    "reconstruction": {
+      "relative_reconstruction_error": 6.803893626283752e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  }
+]

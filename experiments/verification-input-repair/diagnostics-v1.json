@@ -1,0 +1,26 @@
+{
+  "observed_unix": 1790521299.7201755,
+  "metadata": {
+    "id": 136109135,
+    "ref": "KAGGLE_USER/reversible-llm-session-13-locked-diagnostics",
+    "title": "Reversible LLM Session 13 locked diagnostics",
+    "author": "KAGGLE_USER",
+    "slug": "reversible-llm-session-13-locked-diagnostics",
+    "lastRunTime": "2026-09-24T15:01:38.630Z",
+    "language": "python",
+    "kernelType": "script",
+    "isPrivate": true,
+    "enableGpu": true,
+    "enableInternet": false,
+    "datasetDataSources": [
+      "KAGGLE_USER/revllm-session13-assets"
+    ],
+    "kernelDataSources": [
+      "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair"
+    ],
+    "enableTpu": false,
+    "currentVersionNumber": 1,
+    "machineShape": "NvidiaTeslaT4"
+  },
+  "status": {}
+}

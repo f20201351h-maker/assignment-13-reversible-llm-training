@@ -1,0 +1,38 @@
+{
+  "run_id": "preflight-A-L-2027",
+  "status": "INCOMPLETE",
+  "committed_targets": 56320,
+  "attempted_targets": 56320,
+  "updates": 1,
+  "checkpoint_sha256": "8561056224c90815497644e2c55503fe54f8d7d8eb29b481507ba9f47629cd25",
+  "attention_backend": {
+    "requested_policy": "efficient",
+    "effective_policy": "efficient",
+    "device_type": "cuda",
+    "cpu_fallback": false,
+    "fallback_reason": null,
+    "flags": {
+      "flash_sdp_enabled": false,
+      "mem_efficient_sdp_enabled": true,
+      "math_sdp_enabled": false,
+      "cudnn_sdp_enabled": false
+    },
+    "operator_probe": {
+      "profile_activity": "CPU",
+      "module": "revllm.model.CausalAttention",
+      "batch_size": 110,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "amp_fp16": true,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "efficient_operator_observed": true
+    }
+  }
+}

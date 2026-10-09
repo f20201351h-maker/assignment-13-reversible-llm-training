@@ -1,0 +1,65 @@
+/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.
+  _warn_once(
+{
+  "run_id": "B-L-2027",
+  "status": "COMPLETE",
+  "committed_targets": 50000000,
+  "attempted_targets": 50000000,
+  "updates": 888,
+  "retries": 0,
+  "parameter_count": 19969152,
+  "final_update_loss_nats": 2.5623121178668478,
+  "last_1m_training_loss_nats": 2.691522109375,
+  "fixed_training_subset_loss_nats": 2.9622087106108665,
+  "holdout_loss_nats": 2.773651153076172,
+  "holdout_perplexity": 16.0170079266553,
+  "training_seconds": 1030.9027810750035,
+  "job_seconds": 1053.7396062880002,
+  "training_tokens_per_second": 48501.17869297148,
+  "physical_batch": 110,
+  "global_batch": 110,
+  "effective_batch": 110,
+  "sequence_length": 512,
+  "world_size": 1,
+  "device": "cuda",
+  "gpu_name": "Tesla T4",
+  "torch_version": "2.10.0+cu128",
+  "amp_fp16": true,
+  "attention_backend": {
+    "requested_policy": "efficient",
+    "effective_policy": "efficient",
+    "device_type": "cuda",
+    "cpu_fallback": false,
+    "fallback_reason": null,
+    "flags": {
+      "flash_sdp_enabled": false,
+      "mem_efficient_sdp_enabled": true,
+      "math_sdp_enabled": false,
+      "cudnn_sdp_enabled": false
+    },
+    "operator_probe": {
+      "profile_activity": "CPU",
+      "module": "revllm.model.CausalAttention",
+      "batch_size": 110,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "amp_fp16": true,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "efficient_operator_observed": true
+    }
+  },
+  "compile": false,
+  "seed": 2027,
+  "peak_allocated_bytes": 7418235904,
+  "peak_reserved_bytes": 8950644736,
+  "checkpoint_sha256": "0eb205f509c44f2a9434b2b4ede17d68466a706d1ccef6d0fc75bdd09b761cdb",
+  "data_sha256": "aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb",
+  "tokenizer_sha256": "4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74"
+}

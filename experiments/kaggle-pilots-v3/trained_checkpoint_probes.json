@@ -1,0 +1,118 @@
+[
+  {
+    "run_id": "pilot-blended025",
+    "integrator": "blended_midpoint",
+    "step_size": 0.25,
+    "blend": 0.5,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 1.751029776642099e-05,
+    "reconstruction": {
+      "relative_reconstruction_error": 9.430999853066169e-06,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "pilot-conventional",
+    "status": "NOT_REVERSIBLE"
+  },
+  {
+    "run_id": "pilot-coupled025",
+    "integrator": "coupled_euler",
+    "step_size": 0.25,
+    "blend": 1.0,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 9.521692732050724e-07,
+    "reconstruction": {
+      "relative_reconstruction_error": 5.277275505477519e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "pilot-coupled050",
+    "integrator": "coupled_euler",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 1.5289439261323423e-06,
+    "reconstruction": {
+      "relative_reconstruction_error": 7.59929505989021e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "pilot-coupled100",
+    "integrator": "coupled_euler",
+    "step_size": 1.0,
+    "blend": 1.0,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 4.891994649369735e-06,
+    "reconstruction": {
+      "relative_reconstruction_error": 1.213454510207157e-07,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "pilot-midpoint025",
+    "integrator": "midpoint",
+    "step_size": 0.25,
+    "blend": 1.0,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 4.7566962280143343e-07,
+    "reconstruction": {
+      "relative_reconstruction_error": 5.2847521914145545e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "pilot-midpoint050",
+    "integrator": "midpoint",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 5.740029678236169e-07,
+    "reconstruction": {
+      "relative_reconstruction_error": 7.972771953745905e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "pilot-midpoint100",
+    "integrator": "midpoint",
+    "step_size": 1.0,
+    "blend": 1.0,
+    "committed_targets_at_probe": 2000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 4.211333646253479e-07,
+    "reconstruction": {
+      "relative_reconstruction_error": 1.5591518831570284e-07,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  }
+]

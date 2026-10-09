@@ -1,0 +1,32 @@
+{
+  "A": {
+    "condition": "A",
+    "physical_batch": 110,
+    "effective_batch": 110,
+    "median_targets_per_second": 73724.09248508677,
+    "min_targets_per_second": 73601.98633937738,
+    "max_targets_per_second": 85521.72240531963,
+    "peak_allocated_bytes": 14262928384,
+    "peak_reserved_bytes": 15397289984,
+    "raw_repetitions": [
+      "A-rep0.json",
+      "A-rep1.json",
+      "A-rep2.json"
+    ]
+  },
+  "B": {
+    "condition": "B",
+    "physical_batch": 110,
+    "effective_batch": 110,
+    "median_targets_per_second": 49007.89396525521,
+    "min_targets_per_second": 47494.5391939213,
+    "max_targets_per_second": 55154.73343865113,
+    "peak_allocated_bytes": 7418008576,
+    "peak_reserved_bytes": 8942256128,
+    "raw_repetitions": [
+      "B-rep0.json",
+      "B-rep1.json",
+      "B-rep2.json"
+    ]
+  }
+}

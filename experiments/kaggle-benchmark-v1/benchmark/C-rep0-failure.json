@@ -1,0 +1,7 @@
+{
+  "condition": "C",
+  "repetition": 0,
+  "assigned_physical_gpu": 0,
+  "returncode": 1,
+  "log": "/kaggle/working/benchmark/C-rep0.stdout.log"
+}

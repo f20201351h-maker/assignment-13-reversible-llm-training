@@ -1,0 +1,98 @@
+{
+  "hardware": {
+    "device": "cuda:0",
+    "device_index": 0,
+    "gpu": "Tesla T4",
+    "gpu_name": "Tesla T4",
+    "gpu_uuid": "2a688420-7646-cf77-3b5a-58ec13b56be2",
+    "compute_capability": [
+      7,
+      5
+    ],
+    "free_memory_bytes": 15526068224,
+    "total_memory_bytes": 15636037632,
+    "allocator_backend": "native",
+    "torch_version": "2.10.0+cu128",
+    "pytorch_version": "2.10.0+cu128",
+    "backend": "cuda",
+    "device_backend": "cuda",
+    "cuda_runtime_version": "12.8",
+    "cudnn_version": 91002,
+    "precision": "mixed_float16",
+    "autocast_dtype": "float16",
+    "amp_fp16": true,
+    "float32_matmul_precision": "highest",
+    "tf32_matmul_allowed": false,
+    "tf32_cudnn_allowed": true
+  },
+  "probes": [
+    {
+      "physical_batch": 1,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "policy": "automatic; historical campaign did not explicitly force a backend",
+      "flash_enabled": true,
+      "efficient_enabled": true,
+      "math_enabled": true
+    },
+    {
+      "physical_batch": 110,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "policy": "automatic; historical campaign did not explicitly force a backend",
+      "flash_enabled": true,
+      "efficient_enabled": true,
+      "math_enabled": true
+    },
+    {
+      "physical_batch": 181,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "policy": "automatic; historical campaign did not explicitly force a backend",
+      "flash_enabled": true,
+      "efficient_enabled": true,
+      "math_enabled": true
+    },
+    {
+      "physical_batch": 192,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "policy": "automatic; historical campaign did not explicitly force a backend",
+      "flash_enabled": true,
+      "efficient_enabled": true,
+      "math_enabled": true
+    }
+  ]
+}

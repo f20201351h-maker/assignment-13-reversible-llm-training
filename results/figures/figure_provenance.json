@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "generator": "scripts/report_figures.py",
+  "style": "scripts/orx_figstyle.py",
+  "figure_width_inches": 6.75,
+  "raster_dpi": 300,
+  "uncertainty_policy": "Individual seeds and observed min-max ranges; no confidence interval from two seeds.",
+  "main_campaign": "locked",
+  "main_campaign_label": "protocols 06/08 (efficient SDPA locked)",
+  "campaign_selection_policy": "Use kaggle-locked-v1 only after A/B/C seeds 1337 and 2027 plus D/E seed 1337 are all complete; otherwise use kaggle-full-v1. Supplemental auto-policy runs are never pooled into main estimates.",
+  "memory_throughput_source_mode": "isolated_benchmark",
+  "figures": {
+    "activation_storage_vs_depth": {
+      "outputs": [
+        "results/figures/activation_storage_vs_depth.pdf",
+        "results/figures/activation_storage_vs_depth.svg",
+        "results/figures/activation_storage_vs_depth.png"
+      ],
+      "inputs": [
+        "experiments/storage-depth-v1/measurements.json"
+      ]
+    },
+    "batch_capacity_boundaries": {
+      "outputs": [
+        "results/figures/batch_capacity_boundaries.pdf",
+        "results/figures/batch_capacity_boundaries.svg",
+        "results/figures/batch_capacity_boundaries.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/summary.json",
+        "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/trials.jsonl",
+        "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/summary.json",
+        "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/trials.jsonl",
+        "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/summary.json",
+        "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/trials.jsonl",
+        "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/summary.json",
+        "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/trials.jsonl"
+      ]
+    },
+    "batch_memory_and_throughput": {
+      "outputs": [
+        "results/figures/batch_memory_and_throughput.pdf",
+        "results/figures/batch_memory_and_throughput.svg",
+        "results/figures/batch_memory_and_throughput.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/trials.jsonl",
+        "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/trials.jsonl",
+        "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/trials.jsonl",
+        "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/trials.jsonl"
+      ]
+    },
+    "benchmark_device_variation": {
+      "outputs": [
+        "results/figures/benchmark_device_variation.pdf",
+        "results/figures/benchmark_device_variation.svg",
+        "results/figures/benchmark_device_variation.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-benchmark-v2/benchmark/A-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/A-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/A-rep2.json",
+        "experiments/kaggle-benchmark-v2/benchmark/B-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/B-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/B-rep2.json",
+        "experiments/kaggle-benchmark-v2/benchmark/C-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/C-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/C-rep2.json",
+        "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep2.json",
+        "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep2.json",
+        "experiments/kaggle-benchmark-v2/benchmark/D-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/D-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/D-rep2.json",
+        "experiments/kaggle-benchmark-v2/benchmark/E-rep0.json",
+        "experiments/kaggle-benchmark-v2/benchmark/E-rep1.json",
+        "experiments/kaggle-benchmark-v2/benchmark/E-rep2.json"
+      ]
+    },
+    "causal_loss_chain_seed1337": {
+      "outputs": [
+        "results/figures/causal_loss_chain_seed1337.pdf",
+        "results/figures/causal_loss_chain_seed1337.svg",
+        "results/figures/causal_loss_chain_seed1337.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/run_config.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/run_config.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/run_config.json",
+        "experiments/kaggle-locked-v1/runs/D-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/D-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/D-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/D-L-1337/run_config.json"
+      ]
+    },
+    "development_loss_curves": {
+      "outputs": [
+        "results/figures/development_loss_curves.pdf",
+        "results/figures/development_loss_curves.svg",
+        "results/figures/development_loss_curves.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/run_config.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/run_config.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/run_config.json"
+      ]
+    },
+    "memory_throughput": {
+      "outputs": [
+        "results/figures/memory_throughput.pdf",
+        "results/figures/memory_throughput.svg",
+        "results/figures/memory_throughput.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-benchmark-v2/benchmark/summary.json"
+      ]
+    },
+    "numerical_error_depth_and_progress": {
+      "outputs": [
+        "results/figures/numerical_error_depth_and_progress.pdf",
+        "results/figures/numerical_error_depth_and_progress.svg",
+        "results/figures/numerical_error_depth_and_progress.png"
+      ],
+      "inputs": [
+        "experiments/depth-sweep/probes.json",
+        "experiments/kaggle-full-v1/trained_checkpoint_probes.json",
+        "experiments/kaggle-locked-repair-v1/trained_checkpoint_probes.json",
+        "experiments/kaggle-locked-v1/trained_checkpoint_probes.json",
+        "experiments/kaggle-pilots-v3/trained_checkpoint_probes.json",
+        "experiments/kaggle-supplemental-v1/trained_checkpoint_probes.json"
+      ]
+    },
+    "seed_variation_holdout": {
+      "outputs": [
+        "results/figures/seed_variation_holdout.pdf",
+        "results/figures/seed_variation_holdout.svg",
+        "results/figures/seed_variation_holdout.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/run_config.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/run_config.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/run_config.json"
+      ]
+    },
+    "supplemental_sensitivity_holdout": {
+      "outputs": [
+        "results/figures/supplemental_sensitivity_holdout.pdf",
+        "results/figures/supplemental_sensitivity_holdout.svg",
+        "results/figures/supplemental_sensitivity_holdout.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-supplemental-v1/runs/A-3141/eval.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/A-3141/final.json",
+        "experiments/kaggle-supplemental-v1/runs/A-3141/metrics.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/A-3141/run_config.json",
+        "experiments/kaggle-supplemental-v1/runs/B-3141/eval.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/B-3141/final.json",
+        "experiments/kaggle-supplemental-v1/runs/B-3141/metrics.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/B-3141/run_config.json",
+        "experiments/kaggle-supplemental-v1/runs/C-3141/eval.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/C-3141/final.json",
+        "experiments/kaggle-supplemental-v1/runs/C-3141/metrics.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/C-3141/run_config.json",
+        "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/eval.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/final.json",
+        "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/metrics.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/run_config.json",
+        "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/eval.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/final.json",
+        "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/metrics.jsonl",
+        "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/run_config.json"
+      ]
+    },
+    "training_loss_curves": {
+      "outputs": [
+        "results/figures/training_loss_curves.pdf",
+        "results/figures/training_loss_curves.svg",
+        "results/figures/training_loss_curves.png"
+      ],
+      "inputs": [
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/A-L-2027/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/B-L-2027/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/run_config.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/eval.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/final.json",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/metrics.jsonl",
+        "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/run_config.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/A-L-1337/run_config.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/eval.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/metrics.jsonl",
+        "experiments/kaggle-locked-v1/runs/B-L-1337/run_config.json"
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "path": "experiments/depth-sweep/probes.json",
+      "sha256": "8d9c41d7780488188726ead75427fbc4bdce9ec144ef3e19748ad7fc750f1c64",
+      "bytes": 5894
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/A-rep0.json",
+      "sha256": "f3b94558dac0fe529d424c50502f8e5d5bb2f49ecc8bd4f2db0b646fba435093",
+      "bytes": 2869
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/A-rep1.json",
+      "sha256": "516106d62b7056ea74693f38ef5782d33c87ee94b555007b322df74aafdf19fd",
+      "bytes": 2874
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/A-rep2.json",
+      "sha256": "25ef7bed7a5be554d889e0e246f6cf46c6ca38334c4d37027889e80b50f79c83",
+      "bytes": 2878
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/B-rep0.json",
+      "sha256": "6f327596ff365231e7419527e5949af5ae5d2d8a8f793fe5d591b9406e4fc6e6",
+      "bytes": 2866
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/B-rep1.json",
+      "sha256": "b85b51016ee71ed2c9905305e52ab1e88a7a02ecef4f42a5ffb5b0cc1cb0110c",
+      "bytes": 2875
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/B-rep2.json",
+      "sha256": "c47c937064b55c5bc3c7bbdfff5f43629b4d59d1b706b8eeceb307230aafc6f0",
+      "bytes": 2870
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/C-rep0.json",
+      "sha256": "9e2002522bef203d27fd78968b4d3c52620551da416e56c0413c1204cdfd60d1",
+      "bytes": 2874
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/C-rep1.json",
+      "sha256": "c5b25c4e6a42aa27199c77a75fba3cb8c896495dfacc3bc7a3bc861ac167989b",
+      "bytes": 2875
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/C-rep2.json",
+      "sha256": "0f50e0f89ef32d06577628bbf81e60b6a00ba4f9887c2ea1b683cdaa8dd3289d",
+      "bytes": 2875
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep0.json",
+      "sha256": "a5a0c00519be8dccc5b9d80d1f3eb8346344009682c356ebda110037f3c3b76e",
+      "bytes": 2893
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep1.json",
+      "sha256": "d339582e2c8c28597965786424b96e9de6a95c8070e3f2171bf90bb5146c0cc3",
+      "bytes": 2888
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep2.json",
+      "sha256": "172cc6aed60abb1426c049905745bbd5bbad071a4598cdc936144a3106a88389",
+      "bytes": 2889
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep0.json",
+      "sha256": "81ba2c6a3471052a21318d79c7eab05b1aac3d7991ec9ea0e7a1b957d63fcecd",
+      "bytes": 2892
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep1.json",
+      "sha256": "dc18f7dc79241dac75424c94d68929485856023215b6737c00ef68da397182c5",
+      "bytes": 2892
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep2.json",
+      "sha256": "ded3385e05ae37c36cd90ebfed3bb87eef1d2f07090f62da7b0ac1f7511fb5ea",
+      "bytes": 2892
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/D-rep0.json",
+      "sha256": "c8a03aabed5d70ecc202370e146b7587a249f560aaf575eb6295afc15315ada8",
+      "bytes": 2874
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/D-rep1.json",
+      "sha256": "96104427bfdd8e013aca6cdffffdbf190294497927b52ee3ce1c5b0861d0788b",
+      "bytes": 2874
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/D-rep2.json",
+      "sha256": "c4360d672d21ea1e09d56a6a7b94e8e44c1449d468b138db663201868bf67f53",
+      "bytes": 2874
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/E-rep0.json",
+      "sha256": "1fe95bfd50a371091110ea510eea6e3d9ffca9d76e127369374b596e53e87ba0",
+      "bytes": 2865
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/E-rep1.json",
+      "sha256": "8c907b3b30de468849e3dfc4ef7d9af73e77b9931c353ed2531c7a3083a4c1ce",
+      "bytes": 2875
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/E-rep2.json",
+      "sha256": "23d96dae5b4fb67d1ad87d9d230675763b4c8fa6ef8fcacebc4ae7c95227990b",
+      "bytes": 2875
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/summary.json",
+      "sha256": "b096e85b7ae10f65f2c04846d9a7fe5316433e0279bca15b18d073a792912435",
+      "bytes": 3046
+    },
+    {
+      "path": "experiments/kaggle-full-v1/trained_checkpoint_probes.json",
+      "sha256": "97ee52327957021fabbb45649e60e05b3058e89844e8c6809e4fee97dbd26bf4",
+      "bytes": 2839
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/summary.json",
+      "sha256": "91a54f3e550c8708a098adc680d5303393adb204acdce6603f3665994027f42c",
+      "bytes": 212
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/trials.jsonl",
+      "sha256": "a1fb0ea9f2998361cb146f785716014af32e7f810638d0a9b601b0b27ea27942",
+      "bytes": 88203
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/summary.json",
+      "sha256": "041d7c56545596d7168a9c2e0d52419a3d585b90c7211931889cc52c1a3f388a",
+      "bytes": 212
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/trials.jsonl",
+      "sha256": "33c3049b8b93951919aab9a3ef005da18c50e2218e5c83f7598c9e787a4f2610",
+      "bytes": 80002
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/summary.json",
+      "sha256": "fe46ada0868e8e746cc3d8c1b3bcbe753b2c9e225f18aecd043199b464f90a98",
+      "bytes": 221
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/trials.jsonl",
+      "sha256": "52ffc0ebb099ca12c2c03181d3f35dc9b9f86f89f34e75eeaccb8d16dddb2ef8",
+      "bytes": 91595
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/summary.json",
+      "sha256": "9cc106532308f041d5ce9eab0bdd3ef5aacb3f8951ad6e2fa4e31817bdd5d6a8",
+      "bytes": 214
+    },
+    {
+      "path": "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/trials.jsonl",
+      "sha256": "ecccec6be16d2be39ff5751453c34bbaff116824717224b6c950299fc86fcb46",
+      "bytes": 80038
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/A-L-2027/eval.jsonl",
+      "sha256": "c2029f614dd4e8c7c45a570d862c9ccc3f164470b17b41eeac4f3b1bd963275f",
+      "bytes": 1061
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/A-L-2027/final.json",
+      "sha256": "617a0595d3f06aeb50cd0a3e5ebdfcc9a6663c2b4d04b5efae1a4eefc27ec6f4",
+      "bytes": 2066
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/A-L-2027/metrics.jsonl",
+      "sha256": "38da417e96574ba1dc6c0199adabfa9cb4d8d5632efed53630802221922ea627",
+      "bytes": 493841
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/A-L-2027/run_config.json",
+      "sha256": "2a7da708cb95ee72ce1cc3d4b0f6b1d4de293219d81685fdab56ff449519ebff",
+      "bytes": 851
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/B-L-2027/eval.jsonl",
+      "sha256": "a311bd5746e07811ec45636ed3c65727b8fcda9c4a940dd6a4d844cc2a71bab6",
+      "bytes": 1061
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/B-L-2027/final.json",
+      "sha256": "6c05216e47e0cbd6cfd33f309c660164cd3ddc00bd5132e676ae027951bff4e3",
+      "bytes": 2064
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/B-L-2027/metrics.jsonl",
+      "sha256": "cb0f75d5fd707f94fd0a36c9c984ef720e8b7e967d4bb0b267f205ca4daf8bb8",
+      "bytes": 492213
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/B-L-2027/run_config.json",
+      "sha256": "abd568db3d8790345a66cbc84d8354c2e5cd475c570543c812bc448399c3ab58",
+      "bytes": 859
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/eval.jsonl",
+      "sha256": "385854b26e7f07cdf5b9b29e659a5bbd2b0c7da27fab18d37b849183492a08f0",
+      "bytes": 1057
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+      "sha256": "471a9c70e8744074934c15b26fde4a943fab9adb1cb10ac5dda23a2e9fe6d27b",
+      "bytes": 2072
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/metrics.jsonl",
+      "sha256": "f92eee28c08ee219c67ab98df973bc78eade7c980e6342e683c9f92fa2b7d720",
+      "bytes": 284587
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/run_config.json",
+      "sha256": "ee10a56e861ee19bdf61a1215d0f243dcabf7458f53596a6e0abea9b7fda3815",
+      "bytes": 865
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/eval.jsonl",
+      "sha256": "c42777c5bfc7c9a710f8f3e6d87716a278aa99ebdeaf3f9a199fcf88fd3d3942",
+      "bytes": 1055
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/final.json",
+      "sha256": "68a270ce76278043afc8ad52642cce05fe0636635b3c5b0c9c2dc74b2d22543f",
+      "bytes": 2064
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/metrics.jsonl",
+      "sha256": "b8792a22cd327f96685df7e397e7c0c693cf6d84934351f0b70b0f0323b4fdda",
+      "bytes": 284624
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/run_config.json",
+      "sha256": "0be04648c5f9051a0e032f84dd71030bda2bbf145cd1b67e5496526525c0b32b",
+      "bytes": 865
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/eval.jsonl",
+      "sha256": "04bc332800d8a4536de47ddaca3980957bf97fda572b43cc5cae71df3d82835c",
+      "bytes": 1062
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/final.json",
+      "sha256": "e739ce15a0ca6d222a99b8bf547e05d8a9a118b57c4500b57ca344ff2c231731",
+      "bytes": 2062
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/metrics.jsonl",
+      "sha256": "d60c136be804db2a28e8e5ecff075d82de7b0f1c528e9e570b40d8111e9c1781",
+      "bytes": 283478
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/run_config.json",
+      "sha256": "79951018967d5442ed1c82ace5bcf2eefdb62d965aa6714b5280f0704ad66cca",
+      "bytes": 865
+    },
+    {
+      "path": "experiments/kaggle-locked-repair-v1/trained_checkpoint_probes.json",
+      "sha256": "09bbf29b02b1e51a3e74bbc8eb3a2e38e177ad661faf4d18255e2b23acc98533",
+      "bytes": 1891
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/A-L-1337/eval.jsonl",
+      "sha256": "f049603d6fb6eb523c1113ebb058ea111036fee67bf7575e75abaecffa4245cb",
+      "bytes": 1059
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+      "sha256": "df66a196b508cb2905bf4c186a473a9a7147d878a068f18fee9b9d5fddca0591",
+      "bytes": 2060
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/A-L-1337/metrics.jsonl",
+      "sha256": "fb0590db5d39410f0d813cf53429ecf40ea3dc4acca5d1aa6ccece3001983ad4",
+      "bytes": 493605
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/A-L-1337/run_config.json",
+      "sha256": "a1a0881929c5b35c7e63797294ce14e086f03139b252265f46aefe5009f4becd",
+      "bytes": 851
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/B-L-1337/eval.jsonl",
+      "sha256": "604c1eeaba5ea3718d1fa207789185c712f329254eb946648180b4e58006d6c0",
+      "bytes": 1060
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+      "sha256": "f193211de0defcc5d718d1c5b22c3e9192f21b09fbc0d1589775062ff6a1f2d5",
+      "bytes": 2064
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/B-L-1337/metrics.jsonl",
+      "sha256": "198789600d6d1be1e0e1e776f5bbf008bb3048442fae2a2436c3dd85578059b7",
+      "bytes": 492153
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/B-L-1337/run_config.json",
+      "sha256": "559957b2ccbbc993791ce2abf9d5d59dcea980489e43bf19af9c1344713395f6",
+      "bytes": 859
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/D-L-1337/eval.jsonl",
+      "sha256": "598d8a91426cca59349876a7ac994970c63c9ffd0248915101bec4c78e9ed8d1",
+      "bytes": 1058
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/D-L-1337/final.json",
+      "sha256": "9f6e97ad20c375b91cfa45aa09e84305bd3dd04cf575e44ded8e33ba561c9e61",
+      "bytes": 2063
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/D-L-1337/metrics.jsonl",
+      "sha256": "70bb676e34459bb18a7a1681e260a42d29c2c840a2ed1252ca64dc58aa5ff7d4",
+      "bytes": 493831
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/runs/D-L-1337/run_config.json",
+      "sha256": "e6840b2477e4ce4a31c1218cdd17d0e712efb7fddd4dec7901ad0fdf862946fc",
+      "bytes": 852
+    },
+    {
+      "path": "experiments/kaggle-locked-v1/trained_checkpoint_probes.json",
+      "sha256": "c16bf341ce9ecf21de4975d92775d128d5c99ccae3f51d5f19b39be232fe1938",
+      "bytes": 979
+    },
+    {
+      "path": "experiments/kaggle-pilots-v3/trained_checkpoint_probes.json",
+      "sha256": "e4b5341b65c6dc295539de3576f02ec706d33e42eaf14623ed9444c15ad7710e",
+      "bytes": 3293
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/A-3141/eval.jsonl",
+      "sha256": "b5812c4329ed403d677b9e8286038d99d678ea0dad7e158269aa66ce0b2f6810",
+      "bytes": 1058
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/A-3141/final.json",
+      "sha256": "248fb37c043d02d982b334c8483afd57931af98b503e775f170c8325d1f63d3e",
+      "bytes": 1143
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/A-3141/metrics.jsonl",
+      "sha256": "0ee35341b2c35aadffe2c07dc6898ab6a3a891aa8d317bd9298bc478c9f74f0c",
+      "bytes": 493813
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/A-3141/run_config.json",
+      "sha256": "ca6cb21b78f72a6181267c5686eacb3baa9b90c0c4801d25d7146485ddbc4e1c",
+      "bytes": 811
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/B-3141/eval.jsonl",
+      "sha256": "3ac3d77bfd29d5ffdde8712fee319654f0b386428e81b6a31c2576a783882160",
+      "bytes": 1059
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/B-3141/final.json",
+      "sha256": "58dede68c34730ed430b0bc36bc4f6b7435c791346ffbd08b4e59f3fe218c644",
+      "bytes": 1132
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/B-3141/metrics.jsonl",
+      "sha256": "08dbcd2b71f83da869ecf78b18a620bd08fe18823c636f3128935f6a738800a9",
+      "bytes": 492190
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/B-3141/run_config.json",
+      "sha256": "392decd69b0d2122142a65a035ffde4d03f99dbec6c05bf296e2d9cb4533b535",
+      "bytes": 819
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/C-3141/eval.jsonl",
+      "sha256": "e2143325870a78d59e12273615d2594cc61ed62095ec52e77a81021892718708",
+      "bytes": 1055
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/C-3141/final.json",
+      "sha256": "11c5e05b3227e780a3a939c4aad2ce4bd3b2edcd079feb7133e31053b8960582",
+      "bytes": 1141
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/C-3141/metrics.jsonl",
+      "sha256": "2491e7ea82fa8994b68844ea2b83be84a7cfe42e8b6446a8f45034a1cb8effb4",
+      "bytes": 282923
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/C-3141/run_config.json",
+      "sha256": "21310904c3e301497eca9b3f715498388dfbd94865ecc36ec37020fe6877df22",
+      "bytes": 819
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/eval.jsonl",
+      "sha256": "737faea7dbbf517482dc7f74821d3286df5132cf02fc74836ea4fdd91a9c1f38",
+      "bytes": 1063
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/final.json",
+      "sha256": "0c4b19d45d9cb3c0b0aa87a3ef63352f55427a89247e1e1bfc21f084ee0d921e",
+      "bytes": 1150
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/metrics.jsonl",
+      "sha256": "ccc85dfc3b998f279b2163fb85ab09571d24612db90c1bb4a488bfde2a6d23a7",
+      "bytes": 492081
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/run_config.json",
+      "sha256": "a269a5a05eddfc7d2fe83f10849f985ca5a50dff2a309e38f9082a16fa10963b",
+      "bytes": 832
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/eval.jsonl",
+      "sha256": "08ffdbeab7504003cc9179950a3b69b3fc119c659a844d6f216f95728cfb9747",
+      "bytes": 1056
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/final.json",
+      "sha256": "e26a5a8a58b0cc754eaf320f51728d52c68ebb0f644276f329ef53be2e7c4271",
+      "bytes": 1154
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/metrics.jsonl",
+      "sha256": "a862ba38e66885b7604a2b0e5a9b0cc3045281227d7283192b5683161b3ec74f",
+      "bytes": 492081
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/run_config.json",
+      "sha256": "9edfcfe3b5efc200a1ed533889118565a634512763410b6c04f776aa8c2c4526",
+      "bytes": 843
+    },
+    {
+      "path": "experiments/kaggle-supplemental-v1/trained_checkpoint_probes.json",
+      "sha256": "d884fed32dbd5b8f5d39247b08ba98b9d3944b6f46208c68a7e95efe766c20b1",
+      "bytes": 1507
+    },
+    {
+      "path": "experiments/storage-depth-v1/measurements.json",
+      "sha256": "9eff25ce826e31205bdb8fbb300ba22481c0653f97f9692c5041b62daa1e0727",
+      "bytes": 6669
+    }
+  ],
+  "gaps": []
+}

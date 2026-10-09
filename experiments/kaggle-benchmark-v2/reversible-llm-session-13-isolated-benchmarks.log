@@ -1,0 +1,28 @@
+[{"stream_name":"stdout","time":121.01660884,"data":"A repetition 0 GPU 0: 64088.4 targets/s\n"}
+,{"stream_name":"stdout","time":202.764338056,"data":"A repetition 1 GPU 1: 87205.4 targets/s\n"}
+,{"stream_name":"stdout","time":314.636415669,"data":"A repetition 2 GPU 0: 61678.4 targets/s\n"}
+,{"stream_name":"stdout","time":488.035113922,"data":"B repetition 0 GPU 0: 39992.0 targets/s\n"}
+,{"stream_name":"stdout","time":612.124886873,"data":"B repetition 1 GPU 1: 55974.1 targets/s\n"}
+,{"stream_name":"stdout","time":776.863367534,"data":"B repetition 2 GPU 0: 40949.8 targets/s\n"}
+,{"stream_name":"stdout","time":1077.294312288,"data":"C repetition 0 GPU 0: 39764.3 targets/s\n"}
+,{"stream_name":"stdout","time":1294.856729022,"data":"C repetition 1 GPU 1: 54227.7 targets/s\n"}
+,{"stream_name":"stdout","time":1575.245532716,"data":"C repetition 2 GPU 0: 40951.1 targets/s\n"}
+,{"stream_name":"stdout","time":1689.92458951,"data":"D repetition 0 GPU 0: 61346.9 targets/s\n"}
+,{"stream_name":"stdout","time":1770.893248583,"data":"D repetition 1 GPU 1: 88268.4 targets/s\n"}
+,{"stream_name":"stdout","time":1883.56698011,"data":"D repetition 2 GPU 0: 61222.3 targets/s\n"}
+,{"stream_name":"stdout","time":2180.716890528,"data":"E repetition 0 GPU 0: 40250.1 targets/s\n"}
+,{"stream_name":"stdout","time":2395.880523591,"data":"E repetition 1 GPU 1: 54838.2 targets/s\n"}
+,{"stream_name":"stdout","time":2673.33459301,"data":"E repetition 2 GPU 0: 41356.3 targets/s\n"}
+,{"stream_name":"stdout","time":2809.448115892,"data":"checkpointed-B0 repetition 0 GPU 0: 51327.7 targets/s\n"}
+,{"stream_name":"stdout","time":2904.965058078,"data":"checkpointed-B0 repetition 1 GPU 1: 73996.5 targets/s\n"}
+,{"stream_name":"stdout","time":3037.676770065,"data":"checkpointed-B0 repetition 2 GPU 0: 51543.4 targets/s\n"}
+,{"stream_name":"stdout","time":3261.785751151,"data":"checkpointed-max repetition 0 GPU 0: 51143.5 targets/s\n"}
+,{"stream_name":"stdout","time":3423.836835621,"data":"checkpointed-max repetition 1 GPU 1: 70073.9 targets/s\n"}
+,{"stream_name":"stdout","time":3633.682835309,"data":"checkpointed-max repetition 2 GPU 0: 52578.0 targets/s\n"}
+,{"stream_name":"stderr","time":3636.025778521,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3636.025841604,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3636.359602491,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3636.359635153,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3637.102775108,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3638.444907218,"data":"[NbConvertApp] Writing 309743 bytes to __results__.html\n"}
+]

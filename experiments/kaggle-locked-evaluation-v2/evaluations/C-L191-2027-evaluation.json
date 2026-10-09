@@ -1,0 +1,59 @@
+{
+  "run_id": "C-L191-2027",
+  "checkpoint_sha256": "40d9ac9190dc175f99f9b982d545e842c660a4ff6b6362c5abf211262a5bbfc5",
+  "data_sha256": "aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb",
+  "parameter_count": 19969152,
+  "committed_targets_at_checkpoint": 50000000,
+  "device": "cuda",
+  "amp_fp16": true,
+  "attention_backend": {
+    "requested_policy": "efficient",
+    "effective_policy": "efficient",
+    "device_type": "cuda",
+    "cpu_fallback": false,
+    "fallback_reason": null,
+    "flags": {
+      "flash_sdp_enabled": false,
+      "mem_efficient_sdp_enabled": true,
+      "math_sdp_enabled": false,
+      "cudnn_sdp_enabled": false
+    },
+    "operator_probe": {
+      "profile_activity": "CPU",
+      "module": "revllm.model.CausalAttention",
+      "batch_size": 8,
+      "sequence_length": 512,
+      "heads": 6,
+      "head_dimension": 64,
+      "amp_fp16": true,
+      "operators": [
+        "aten::_efficient_attention_backward",
+        "aten::_efficient_attention_forward",
+        "aten::_scaled_dot_product_efficient_attention",
+        "aten::_scaled_dot_product_efficient_attention_backward",
+        "aten::scaled_dot_product_attention"
+      ],
+      "efficient_operator_observed": true
+    }
+  },
+  "evaluation": {
+    "dev": {
+      "loss_nats": 3.0900401696562767,
+      "perplexity": 21.977960805163033,
+      "targets": 262144
+    },
+    "holdout": {
+      "loss_nats": 3.095928124145508,
+      "perplexity": 22.107747753016707,
+      "targets": 1000000
+    },
+    "train_subset": {
+      "loss_nats": 3.274444118142128,
+      "perplexity": 26.42853025603729,
+      "targets": 131072
+    }
+  },
+  "assigned_physical_gpu": 1,
+  "original_holdout_loss_nats": 3.095928124145508,
+  "holdout_recheck_absolute_difference": 0.0
+}

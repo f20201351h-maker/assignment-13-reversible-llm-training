@@ -1,0 +1,9 @@
+# Isolated throughput and memory benchmark protocol
+
+This protocol was fixed before the isolated benchmark campaign. Its purpose is to separate steady-state training-update performance from downloads, startup, evaluation, and checkpointing. The principal full-run campaign remains the evidence for end-to-end training throughput.
+
+For each A–E configuration, perform three fresh-process repetitions of 20 successful warmup updates followed by 100 successful measured updates. Use the frozen physical and effective batches: A/B/D 110/110, C 192/192, and E 110/192. In E, each update consists of physical microbatches of 110 and 82 sequences; the summed loss is divided by all 192×512 targets before gradient clipping and the optimizer step. Use one worker at a time with device assignments 0, 1, 0 across repetitions. Record both the assigned physical GPU and runtime device metadata. Synchronize CUDA before and after timing and reset peak memory after warmup.
+
+Run conventional activation checkpointing at physical batches 110 and 181 as separate diagnostic conditions. These do not substitute for a 50M-target checkpointing run. Each repetition uses the same synthetic token shapes and labels within a condition and performs real AdamW optimizer updates, but random-token optimization is a performance probe, not a loss-quality experiment. Report median and full observed range of targets/second and peak allocated/reserved bytes. On an AMP overflow, repeat the attempted update; only successful updates enter the measured-token numerator. Preserve all raw repetition records and failures.
+
+The benchmark is launched only after the principal two-worker kernel ends, so there is no simultaneous training worker. If a maximum-batch condition fails under the updated exact effective-batch profile, retain that failure and revise its performance claim; do not silently reduce the batch.

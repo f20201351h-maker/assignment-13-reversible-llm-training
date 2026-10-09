@@ -1,0 +1,14 @@
+{
+  "run_id": "batch-search-coupled_reconstructed",
+  "model": {
+    "integrator": "coupled_euler",
+    "backward_mode": "reconstructed",
+    "step_size": 0.5
+  },
+  "data_dir": "/kaggle/input/datasets/KAGGLE_USER/revllm-session13-assets",
+  "out_dir": "/kaggle/working/batch-search-coupled_reconstructed",
+  "physical_batch": 1,
+  "effective_batch": 1,
+  "seed": 1337,
+  "use_amp": true
+}

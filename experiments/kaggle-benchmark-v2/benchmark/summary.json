@@ -1,0 +1,107 @@
+{
+  "A": {
+    "condition": "A",
+    "physical_batch": 110,
+    "effective_batch": 110,
+    "median_targets_per_second": 64088.40797643251,
+    "min_targets_per_second": 61678.448578972675,
+    "max_targets_per_second": 87205.42771674455,
+    "peak_allocated_bytes": 14262928384,
+    "peak_reserved_bytes": 15397289984,
+    "raw_repetitions": [
+      "A-rep0.json",
+      "A-rep1.json",
+      "A-rep2.json"
+    ]
+  },
+  "B": {
+    "condition": "B",
+    "physical_batch": 110,
+    "effective_batch": 110,
+    "median_targets_per_second": 40949.84819103725,
+    "min_targets_per_second": 39991.9599652425,
+    "max_targets_per_second": 55974.06722983855,
+    "peak_allocated_bytes": 7418008576,
+    "peak_reserved_bytes": 8942256128,
+    "raw_repetitions": [
+      "B-rep0.json",
+      "B-rep1.json",
+      "B-rep2.json"
+    ]
+  },
+  "C": {
+    "condition": "C",
+    "physical_batch": 191,
+    "effective_batch": 191,
+    "median_targets_per_second": 40951.14116510091,
+    "min_targets_per_second": 39764.27234412551,
+    "max_targets_per_second": 54227.72041878986,
+    "peak_allocated_bytes": 12677776384,
+    "peak_reserved_bytes": 15416164352,
+    "raw_repetitions": [
+      "C-rep0.json",
+      "C-rep1.json",
+      "C-rep2.json"
+    ]
+  },
+  "D": {
+    "condition": "D",
+    "physical_batch": 110,
+    "effective_batch": 110,
+    "median_targets_per_second": 61346.85361398001,
+    "min_targets_per_second": 61222.30740905071,
+    "max_targets_per_second": 88268.43612844525,
+    "peak_allocated_bytes": 14264316928,
+    "peak_reserved_bytes": 15441330176,
+    "raw_repetitions": [
+      "D-rep0.json",
+      "D-rep1.json",
+      "D-rep2.json"
+    ]
+  },
+  "E": {
+    "condition": "E",
+    "physical_batch": 110,
+    "effective_batch": 191,
+    "median_targets_per_second": 41356.26470503196,
+    "min_targets_per_second": 40250.0526834488,
+    "max_targets_per_second": 54838.15728128837,
+    "peak_allocated_bytes": 7418672128,
+    "peak_reserved_bytes": 8948547584,
+    "raw_repetitions": [
+      "E-rep0.json",
+      "E-rep1.json",
+      "E-rep2.json"
+    ]
+  },
+  "checkpointed-B0": {
+    "condition": "checkpointed-B0",
+    "physical_batch": 110,
+    "effective_batch": 110,
+    "median_targets_per_second": 51543.43353449347,
+    "min_targets_per_second": 51327.709924370596,
+    "max_targets_per_second": 73996.48421928767,
+    "peak_allocated_bytes": 7938954240,
+    "peak_reserved_bytes": 9638510592,
+    "raw_repetitions": [
+      "checkpointed-B0-rep0.json",
+      "checkpointed-B0-rep1.json",
+      "checkpointed-B0-rep2.json"
+    ]
+  },
+  "checkpointed-max": {
+    "condition": "checkpointed-max",
+    "physical_batch": 182,
+    "effective_batch": 182,
+    "median_targets_per_second": 52578.01913181184,
+    "min_targets_per_second": 51143.51262706825,
+    "max_targets_per_second": 70073.94485546806,
+    "peak_allocated_bytes": 12953801728,
+    "peak_reserved_bytes": 13625196544,
+    "raw_repetitions": [
+      "checkpointed-max-rep0.json",
+      "checkpointed-max-rep1.json",
+      "checkpointed-max-rep2.json"
+    ]
+  }
+}

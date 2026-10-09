@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "dataset": "roneneldan/TinyStories",
+  "dataset_revision": "resolve_and_record_before_download",
+  "data_seed": 20260926,
+  "model": {
+    "vocab_size": 10000,
+    "block_size": 512,
+    "n_layer": 9,
+    "n_head": 6,
+    "n_embd": 384,
+    "ffn_mult": 4,
+    "dropout": 0.0
+  },
+  "training": {
+    "target_tokens": 50000000,
+    "pilot_tokens": 2000000,
+    "warmup_tokens": 1000000,
+    "learning_rate": 0.0003,
+    "min_learning_rate": 0.00003,
+    "weight_decay": 0.1,
+    "adam_betas": [0.9, 0.95],
+    "adam_eps": 1e-8,
+    "grad_clip": 1.0,
+    "seeds": [1337, 2027],
+    "dev_targets": 262144,
+    "holdout_targets": 1000000
+  }
+}

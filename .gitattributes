@@ -1,0 +1,2 @@
+# Evidence manifests hash exact bytes. Never rewrite line endings on checkout.
+* -text

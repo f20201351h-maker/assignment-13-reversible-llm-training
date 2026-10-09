@@ -1,0 +1,38 @@
+{
+  "dataset": "roneneldan/TinyStories",
+  "dataset_revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+  "license": "cdla-sharing-1.0",
+  "tokenizer_sha256": "4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74",
+  "tokenizer_training_documents": 100000,
+  "normalization": "CRLF to LF; strip surrounding whitespace; exact SHA256 document dedup",
+  "split_rule": "official train for train/tokenizer; official validation parity of first 32 hash bits for dev/holdout",
+  "pad_id": 0,
+  "eos_id": 1,
+  "tapes": {
+    "dev": {
+      "target_count": 262144,
+      "source_documents": 1291,
+      "separator_input_tokens": 1290,
+      "sha256": "cdc9bcf3263e4397b196015b524296b3e78cdc00433176028b94de8de8261175"
+    },
+    "holdout": {
+      "target_count": 1000000,
+      "source_documents": 4984,
+      "separator_input_tokens": 4983,
+      "sha256": "e5a9a454c9b3a79a80b77292ea4cbd2c2c9b994ae106bc6e1735f4607e28d470"
+    },
+    "train": {
+      "target_count": 50000000,
+      "source_documents": 226208,
+      "separator_input_tokens": 226207,
+      "sha256": "aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb"
+    }
+  },
+  "source_files": {
+    "data/train-00000-of-00004-2d5a1467fff1081b.parquet": {"bytes": 248731111, "upstream_lfs_sha256": "77cf780cebe52b6e83e3a2ac84bc56d8059363113e41d17a023f1d8b2ed0fc0b"},
+    "data/train-00001-of-00004-5852b56a2bd28fd9.parquet": {"bytes": 248171980, "upstream_lfs_sha256": "e2f173a6dcc2b5895183e8ad376e115bd5c06764eb0cfc01ce1add156b2d017f"},
+    "data/train-00002-of-00004-a26307300439e943.parquet": {"bytes": 245894874, "upstream_lfs_sha256": "cac73cd1a0973a7fccde022a5a5c78f8ba58ea6849541835c58e7c5fc747f2ef"},
+    "data/train-00003-of-00004-d243063613e5a057.parquet": {"bytes": 247988350, "upstream_lfs_sha256": "862514ae75723ddd339337f1ef7617b88f82290dcddd57445e1d38d257ca7891"},
+    "data/validation-00000-of-00001-869c898b519ad725.parquet": {"bytes": 9989127, "upstream_lfs_sha256": "33406a6206554cfc279c29c11f4df51528af487aa1a602b075566fc83c49dcab"}
+  }
+}

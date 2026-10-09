@@ -1,0 +1,32 @@
+[
+  {
+    "path": "notebooks\\00_setup_and_correctness.ipynb",
+    "sha256": "41e5041216fd0e596aff5f2fe50cdb44e9b6ca34433abc78164c1b784360a6c6",
+    "code_cells": 4,
+    "status": "PASS"
+  },
+  {
+    "path": "notebooks\\01_baseline.ipynb",
+    "sha256": "237cd40a380713b8e8e78b502de9b3fae77ea32b1d3e0e15b03c34bf0d305add",
+    "code_cells": 4,
+    "status": "PASS"
+  },
+  {
+    "path": "notebooks\\02_reversible_variants.ipynb",
+    "sha256": "020185ef22e249c6624ddad95f030e740035275ec42cdb101c3559d8f941c670",
+    "code_cells": 5,
+    "status": "PASS"
+  },
+  {
+    "path": "notebooks\\03_maximum_batch.ipynb",
+    "sha256": "77022641d798b96a30261ff429aaf18c463661c96ab0edfe882dd330c46bc1d2",
+    "code_cells": 2,
+    "status": "PASS"
+  },
+  {
+    "path": "notebooks\\04_results_and_audit.ipynb",
+    "sha256": "a2f4c5592615110d9013192c45203bec8eb3e1a5d68eee23f80e0ba1a4dad931",
+    "code_cells": 4,
+    "status": "PASS"
+  }
+]

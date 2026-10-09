@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":108.56795827,"data":"A repetition 0 GPU 0: 73724.1 targets/s\n"}
+,{"stream_name":"stdout","time":191.654145442,"data":"A repetition 1 GPU 1: 85521.7 targets/s\n"}
+,{"stream_name":"stdout","time":286.672385163,"data":"A repetition 2 GPU 0: 73602.0 targets/s\n"}
+,{"stream_name":"stdout","time":432.872688918,"data":"B repetition 0 GPU 0: 47494.5 targets/s\n"}
+,{"stream_name":"stdout","time":558.170034407,"data":"B repetition 1 GPU 1: 55154.7 targets/s\n"}
+,{"stream_name":"stdout","time":698.206098441,"data":"B repetition 2 GPU 0: 49007.9 targets/s\n"}
+,{"stream_name":"stderr","time":707.971476028,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":707.971569571,"data":"  File \"/kaggle/src/script.py\", line 75, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":707.971592134,"data":"    main()\n"}
+,{"stream_name":"stderr","time":707.971670937,"data":"  File \"/kaggle/src/script.py\", line 54, in main\n"}
+,{"stream_name":"stderr","time":707.971795629,"data":"    raise RuntimeError(f'Benchmark failure: {failure}')\n"}
+,{"stream_name":"stderr","time":707.971868219,"data":"RuntimeError: Benchmark failure: {'condition': 'C', 'repetition': 0, 'assigned_physical_gpu': 0, 'returncode': 1, 'log': '/kaggle/working/benchmark/C-rep0.stdout.log'}\n"}
+,{"stream_name":"stderr","time":710.343472518,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":710.343504542,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":710.679804519,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":710.679831644,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":711.454128007,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":712.830528267,"data":"[NbConvertApp] Writing 309743 bytes to __results__.html\n"}
+]

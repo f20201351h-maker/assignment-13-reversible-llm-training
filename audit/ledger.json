@@ -1,0 +1,339 @@
+[
+  {
+    "requirement": "Critical local correctness, accounting, and resume tests",
+    "status": "PASS",
+    "evidence": [
+      "audit/pytest.txt",
+      "tests/"
+    ],
+    "detail": "exit=0"
+  },
+  {
+    "requirement": "All principal architectures have 19,969,152 unique parameters",
+    "status": "PASS",
+    "evidence": [
+      "audit/parameter_counts.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Pinned data and exact split sizes; local tape hashes verified",
+    "status": "PASS",
+    "evidence": [
+      "data/manifest.json",
+      "data/tokenizer.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Intended mixed-precision GPU numerical gates",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-pilots-v3/gpu_correctness.json"
+    ],
+    "detail": "1 complete passing GPU-gate bundles"
+  },
+  {
+    "requirement": "Depth-dependent FP64/FP32 reconstruction and gradient probes",
+    "status": "PASS",
+    "evidence": [
+      "experiments/depth-sweep/probes.json"
+    ],
+    "detail": "20 retained probes"
+  },
+  {
+    "requirement": "Eight 2M-target pilots and seven post-training numerical probes",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-pilots-v3/runs/pilot-blended025/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-conventional/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-coupled025/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-coupled050/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-coupled100/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-midpoint025/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-midpoint050/final.json",
+      "experiments/kaggle-pilots-v3/runs/pilot-midpoint100/final.json",
+      "experiments/kaggle-pilots-v3/trained_checkpoint_probes.json"
+    ],
+    "detail": "8/8 raw pilots valid; post-training probes=True"
+  },
+  {
+    "requirement": "Four observed OOM boundaries with repeated and sustained trials",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-batch-v1/batch-search-conventional/search/summary.json",
+      "experiments/kaggle-batch-v1/batch-search-conventional/search/trials.jsonl",
+      "experiments/kaggle-batch-v1/batch-search-checkpointed/search/summary.json",
+      "experiments/kaggle-batch-v1/batch-search-checkpointed/search/trials.jsonl",
+      "experiments/kaggle-batch-v1/batch-search-coupled_stored/search/summary.json",
+      "experiments/kaggle-batch-v1/batch-search-coupled_stored/search/trials.jsonl",
+      "experiments/kaggle-batch-v1/batch-search-coupled_reconstructed/search/summary.json",
+      "experiments/kaggle-batch-v1/batch-search-coupled_reconstructed/search/trials.jsonl"
+    ],
+    "detail": "B0=110 and BR=192 under the search probe"
+  },
+  {
+    "requirement": "Four locked-backend OOM boundaries reproduced with fresh and sustained trials",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/summary.json",
+      "experiments/kaggle-locked-batch-v1/batch-search-conventional/search/trials.jsonl",
+      "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/summary.json",
+      "experiments/kaggle-locked-batch-v1/batch-search-checkpointed/search/trials.jsonl",
+      "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/summary.json",
+      "experiments/kaggle-locked-batch-v1/batch-search-coupled_stored/search/trials.jsonl",
+      "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/summary.json",
+      "experiments/kaggle-locked-batch-v1/batch-search-coupled_reconstructed/search/trials.jsonl"
+    ],
+    "detail": "Different measured boundaries require investigation and amended interpretation, not automatic rejection."
+  },
+  {
+    "requirement": "Eight original 50M-target runs, raw counts and checkpoint hashes",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-supplemental-v1/runs/A-3141/final.json",
+      "experiments/kaggle-supplemental-v1/runs/B-3141/final.json",
+      "experiments/kaggle-supplemental-v1/runs/C-3141/final.json",
+      "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/final.json",
+      "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/final.json",
+      "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+      "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+      "experiments/kaggle-locked-v1/runs/D-L-1337/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/A-L-2027/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/B-L-2027/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/final.json",
+      "experiments/kaggle-full-v1/runs/A-1337/final.json",
+      "experiments/kaggle-full-v1/runs/A-2027/final.json",
+      "experiments/kaggle-full-v1/runs/B-1337/final.json",
+      "experiments/kaggle-full-v1/runs/B-2027/final.json",
+      "experiments/kaggle-full-v1/runs/C-1337/final.json",
+      "experiments/kaggle-full-v1/runs/C-2027/final.json",
+      "experiments/kaggle-full-v1/runs/D-1337/final.json",
+      "experiments/kaggle-full-v1/runs/E-1337/final.json"
+    ],
+    "detail": "8/8 fully verified; "
+  },
+  {
+    "requirement": "Eight locked-backend 50M confirmations with raw counts, hashes and actual operators",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-locked-v1/runs/A-L-1337/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/A-L-2027/final.json",
+      "experiments/kaggle-locked-v1/runs/B-L-1337/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/B-L-2027/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/C-L191-1337/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/C-L191-2027/final.json",
+      "experiments/kaggle-locked-v1/runs/D-L-1337/final.json",
+      "experiments/kaggle-locked-repair-v1/runs/E-L191-1337/final.json"
+    ],
+    "detail": "8/8 complete; backend verified=True"
+  },
+  {
+    "requirement": "Five supplemental 50M runs: midpoint, checkpointing and third seed",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-supplemental-v1/runs/A-3141/final.json",
+      "experiments/kaggle-supplemental-v1/runs/B-3141/final.json",
+      "experiments/kaggle-supplemental-v1/runs/C-3141/final.json",
+      "experiments/kaggle-supplemental-v1/runs/F-midpoint-1337/final.json",
+      "experiments/kaggle-supplemental-v1/runs/G-checkpointed-1337/final.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Post-training reversible inverse and gradient checks at 50M targets",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-full-v1/trained_checkpoint_probes.json"
+    ],
+    "detail": "6/6 principal reversible checkpoints pass"
+  },
+  {
+    "requirement": "Clean-process checkpoint development, holdout, and training-subset evaluation",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/A-3141-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/B-3141-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/C-3141-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/F-midpoint-1337-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/G-checkpointed-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/A-L-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/A-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/B-L-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/B-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/C-L191-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/C-L191-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/D-L-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/E-L191-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/A-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/B-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/C-L191-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/C-L191-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/E-L191-1337-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/A-1337-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/A-2027-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/B-1337-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/B-2027-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/C-1337-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/C-2027-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/D-1337-evaluation.json",
+      "experiments/kaggle-evaluation-v1/evaluations/E-1337-evaluation.json"
+    ],
+    "detail": "8/8 principal checkpoints match hashes, split counts and losses; errors=[]"
+  },
+  {
+    "requirement": "Isolated 20-warmup/100-measured benchmarks, three fresh GPU-swapped repeats",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-benchmark-v2/benchmark/A-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/A-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/A-rep2.json",
+      "experiments/kaggle-benchmark-v2/benchmark/B-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/B-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/B-rep2.json",
+      "experiments/kaggle-benchmark-v2/benchmark/C-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/C-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/C-rep2.json",
+      "experiments/kaggle-benchmark-v2/benchmark/D-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/D-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/D-rep2.json",
+      "experiments/kaggle-benchmark-v2/benchmark/E-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/E-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/E-rep2.json",
+      "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep2.json",
+      "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep0.json",
+      "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep1.json",
+      "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep2.json"
+    ],
+    "detail": "21/21 repetition files available"
+  },
+  {
+    "requirement": "Trained principal checkpoints pass intended mixed-precision gradients and inverse gates",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-diagnostics-v1/diagnostics/trained_mixed_precision.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "All six main trained reversible checkpoints pass FP32 inverse and gradient gates",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-locked-v1/trained_checkpoint_probes.json",
+      "experiments/kaggle-locked-repair-v1/trained_checkpoint_probes.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Locked trained checkpoints pass intended-precision numerical gates",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-locked-diagnostics-v2/diagnostics/trained_mixed_precision.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Original attention-dispatch deviation disclosed; new confirmation IDs preserve history",
+    "status": "PASS",
+    "evidence": [
+      "protocols/05_backend_and_trained_precision.md",
+      "protocols/06_locked_backend_confirmation.md"
+    ],
+    "detail": "Original runs used automatic SDPA dispatch and failed the planned explicit-lock requirement. Later profiles cannot prove historical operators. The separate locked-confirmation claim above must pass before completion."
+  },
+  {
+    "requirement": "Locked checkpoint independent development, holdout and training-subset evaluation",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-locked-evaluation-v2/evaluations/A-L-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/A-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/B-L-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/B-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/C-L191-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/C-L191-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/D-L-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v2/evaluations/E-L191-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/A-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/B-L-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/C-L191-1337-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/C-L191-2027-evaluation.json",
+      "experiments/kaggle-locked-evaluation-v1/evaluations/E-L191-1337-evaluation.json"
+    ],
+    "detail": "8/8 independently reproduced"
+  },
+  {
+    "requirement": "Supplemental checkpoint independent evaluations",
+    "status": "PASS",
+    "evidence": [
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/A-3141-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/B-3141-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/C-3141-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/F-midpoint-1337-evaluation.json",
+      "experiments/kaggle-supplemental-evaluation-v1/evaluations/G-checkpointed-1337-evaluation.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Unique saved stack storage is constant with depth, excluding parameters",
+    "status": "PASS",
+    "evidence": [
+      "experiments/storage-depth-v1/measurements.json"
+    ],
+    "detail": "Tiny CPU FP32 storage diagnostic; not a full-model GPU peak-memory claim."
+  },
+  {
+    "requirement": "Five notebooks execute top-to-bottom with genuine outputs",
+    "status": "PASS",
+    "evidence": [
+      "audit/notebook_execution.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Raw-log regenerated tables and all planned quantitative figures",
+    "status": "PASS",
+    "evidence": [
+      "scripts/analyze.py",
+      "results/runs.csv",
+      "results/loss_vs_tokens.png",
+      "results/loss_vs_time.png",
+      "results/memory_vs_batch.png",
+      "results/throughput_vs_batch.png",
+      "results/max_batch_boundaries.png",
+      "results/reconstruction_error_vs_depth.png",
+      "results/gradient_error_vs_depth.png",
+      "results/numerical_error_vs_training_progress.png",
+      "results/memory_throughput.png",
+      "results/seed_variation.png"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Report figure source hashes match retained raw evidence",
+    "status": "PASS",
+    "evidence": [
+      "results/figures/figure_provenance.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Portable PDF and HTML match generated report source and exporter",
+    "status": "PASS",
+    "evidence": [
+      "audit/report_export.json"
+    ],
+    "detail": ""
+  },
+  {
+    "requirement": "Tracked-file credential-pattern scan",
+    "status": "PASS",
+    "evidence": [
+      "audit/credential_scan.json"
+    ],
+    "detail": "609 tracked files scanned; 0 findings"
+  }
+]

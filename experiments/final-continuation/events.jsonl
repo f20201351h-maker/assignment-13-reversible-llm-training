@@ -1,0 +1,29 @@
+{"time_unix": 1790501731.2135272, "pid": 16776, "phase": "started"}
+{"time_unix": 1790501733.1986997, "pid": 16776, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair", "status": "QUEUED"}
+{"time_unix": 1790503542.2790475, "pid": 16776, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair", "status": "RUNNING"}
+{"time_unix": 1790507834.440048, "pid": 16776, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair", "status": "COMPLETE"}
+{"time_unix": 1790507840.232464, "pid": 16776, "phase": "launched", "job": "KAGGLE_USER/reversible-llm-session-13-isolated-benchmarks", "version": 2}
+{"time_unix": 1790508052.9294336, "pid": 16776, "phase": "downloaded", "job": "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair", "folder": "experiments/kaggle-locked-repair-v1"}
+{"time_unix": 1790508085.8087926, "pid": 16776, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-isolated-benchmarks", "status": "RUNNING"}
+{"time_unix": 1790511607.623046, "pid": 16776, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-isolated-benchmarks", "status": "COMPLETE"}
+{"time_unix": 1790511640.5659711, "pid": 16776, "phase": "downloaded", "job": "KAGGLE_USER/reversible-llm-session-13-isolated-benchmarks", "folder": "experiments/kaggle-benchmark-v2"}
+{"time_unix": 1790511645.7447455, "pid": 16776, "phase": "launched", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "version": 1}
+{"time_unix": 1790511651.3986058, "pid": 16776, "phase": "launched", "job": "KAGGLE_USER/reversible-llm-session-13-locked-diagnostics", "version": 1}
+{"time_unix": 1790511653.1123202, "pid": 16776, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "status": "QUEUED"}
+{"time_unix": 1790516150.894612, "pid": 16776, "phase": "STOPPED_ERROR", "error": "Four-hour continuation deadline reached"}
+{"time_unix": 1790520329.0094981, "pid": 24840, "phase": "started"}
+{"time_unix": 1790520331.5973837, "pid": 24840, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "status": "QUEUED"}
+{"time_unix": 1790521090.2089286, "pid": 24840, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "status": "RUNNING"}
+{"time_unix": 1790521192.9779868, "pid": 24840, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "status": "ERROR"}
+{"time_unix": 1790521193.0467963, "pid": 24840, "phase": "STOPPED_ERROR", "error": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation ended ERROR; preserve failure and investigate"}
+{"time_unix": 1790540410.4455688, "pid": 28464, "phase": "waiting-checkpoint-asset"}
+{"time_unix": 1790540655.5411532, "pid": 28464, "phase": "launched", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "version": 2}
+{"time_unix": 1790540665.4994874, "pid": 28464, "phase": "launched", "job": "KAGGLE_USER/reversible-llm-session-13-locked-diagnostics", "version": 2}
+{"time_unix": 1790540666.5087178, "pid": 28464, "phase": "verification-v2-inputs-confirmed"}
+{"time_unix": 1790540666.609768, "pid": 31736, "phase": "started"}
+{"time_unix": 1790540668.2707968, "pid": 31736, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "status": "RUNNING"}
+{"time_unix": 1790540810.2280948, "pid": 31736, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "status": "COMPLETE"}
+{"time_unix": 1790540823.2438908, "pid": 31736, "phase": "downloaded", "job": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation", "folder": "experiments/kaggle-locked-evaluation-v2"}
+{"time_unix": 1790540824.9227655, "pid": 31736, "phase": "job-status", "job": "KAGGLE_USER/reversible-llm-session-13-locked-diagnostics", "status": "COMPLETE"}
+{"time_unix": 1790540828.6020756, "pid": 31736, "phase": "downloaded", "job": "KAGGLE_USER/reversible-llm-session-13-locked-diagnostics", "folder": "experiments/kaggle-locked-diagnostics-v2"}
+{"time_unix": 1790540830.2476335, "pid": 31736, "phase": "ready-for-final-review"}

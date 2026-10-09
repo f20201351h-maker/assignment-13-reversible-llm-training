@@ -1,0 +1,25 @@
+{
+  "protocol": "protocols/08_locked_capacity_repair.md",
+  "B0": 110,
+  "BR": 191,
+  "checkpointed_max": 182,
+  "run_ids": [
+    "A-L-1337",
+    "B-L-1337",
+    "D-L-1337",
+    "C-L191-1337",
+    "E-L191-1337",
+    "A-L-2027",
+    "B-L-2027",
+    "C-L191-2027"
+  ],
+  "kernel_sources": [
+    "KAGGLE_USER/reversible-llm-session-13-locked-confirmation",
+    "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair"
+  ],
+  "local_roots": [
+    "experiments/kaggle-locked-v1/runs",
+    "experiments/kaggle-locked-repair-v1/runs"
+  ],
+  "benchmark_root": "experiments/kaggle-benchmark-v2"
+}

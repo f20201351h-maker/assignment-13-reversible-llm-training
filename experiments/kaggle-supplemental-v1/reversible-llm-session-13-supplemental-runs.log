@@ -1,0 +1,228 @@
+[{"stream_name":"stdout","time":11.591004183,"data":"Full-run numerical gate exit=0:  \n"}
+,{"stream_name":"stdout","time":21.101633617,"data":"Exact training-path preflight F-midpoint-1337 exit=0: {\n"}
+,{"stream_name":"stdout","time":21.101664634,"data":"  \"run_id\": \"preflight-F-midpoint-1337\",\n"}
+,{"stream_name":"stdout","time":21.10166865,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":21.101671823,"data":"  \"committed_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":21.101674843,"data":"  \"attempted_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":21.101677802,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":21.101680885,"data":"  \"checkpoint_sha256\": \"f2da5c2df2e16b69319a57658da34e203f73abb0b7de6b94dbd2871ee81d0289\"\n"}
+,{"stream_name":"stdout","time":21.101683959,"data":"}\n"}
+,{"stream_name":"stdout","time":21.101686861,"data":" \n"}
+,{"stream_name":"stdout","time":27.785274151,"data":"Exact training-path preflight G-checkpointed-1337 exit=0: {\n"}
+,{"stream_name":"stdout","time":27.785315901,"data":"  \"run_id\": \"preflight-G-checkpointed-1337\",\n"}
+,{"stream_name":"stdout","time":27.785322012,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":27.785326863999998,"data":"  \"committed_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":27.785331324,"data":"  \"attempted_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":27.785335715,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":27.785340188,"data":"  \"checkpoint_sha256\": \"ee3614dde15933c4379111430d4a3ca379006db71e5b4ce2da883c3be9a197a7\"\n"}
+,{"stream_name":"stdout","time":27.785345039,"data":"}\n"}
+,{"stream_name":"stdout","time":27.785354847,"data":" \n"}
+,{"stream_name":"stdout","time":34.18113504,"data":"Exact training-path preflight A-3141 exit=0: {\n"}
+,{"stream_name":"stdout","time":34.181179913,"data":"  \"run_id\": \"preflight-A-3141\",\n"}
+,{"stream_name":"stdout","time":34.181195304,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":34.181200814,"data":"  \"committed_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":34.181206163,"data":"  \"attempted_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":34.181211331,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":34.181216273,"data":"  \"checkpoint_sha256\": \"6dbb61ae6ad84ab0e15e9139b09e451b4cedb202662d39f4e142c743f6132c65\"\n"}
+,{"stream_name":"stdout","time":34.181220934,"data":"}\n"}
+,{"stream_name":"stdout","time":34.181225091,"data":" \n"}
+,{"stream_name":"stdout","time":41.040121506,"data":"Exact training-path preflight B-3141 exit=0: {\n"}
+,{"stream_name":"stdout","time":41.040161025,"data":"  \"run_id\": \"preflight-B-3141\",\n"}
+,{"stream_name":"stdout","time":41.040171566,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":41.040176024,"data":"  \"committed_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":41.040198657,"data":"  \"attempted_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":41.040203979,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":41.040209054,"data":"  \"checkpoint_sha256\": \"afd555b608bf65a5d91421546252cc968d02b69d7a493724f362985644c716e9\"\n"}
+,{"stream_name":"stdout","time":41.040214648,"data":"}\n"}
+,{"stream_name":"stdout","time":41.040218784,"data":" \n"}
+,{"stream_name":"stdout","time":48.763095976,"data":"Exact training-path preflight C-3141 exit=0: {\n"}
+,{"stream_name":"stdout","time":48.763140269,"data":"  \"run_id\": \"preflight-C-3141\",\n"}
+,{"stream_name":"stdout","time":48.763146841,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":48.763165818,"data":"  \"committed_targets\": 98304,\n"}
+,{"stream_name":"stdout","time":48.763169663,"data":"  \"attempted_targets\": 98304,\n"}
+,{"stream_name":"stdout","time":48.763173378,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":48.763177077,"data":"  \"checkpoint_sha256\": \"99d0dc8aba2eb05a31a3d74cb704228c1c93c3771ffff119e9233f5b9a5c3e75\"\n"}
+,{"stream_name":"stdout","time":48.763180946,"data":"}\n"}
+,{"stream_name":"stdout","time":48.763184815,"data":" \n"}
+,{"stream_name":"stdout","time":48.763914705,"data":"Started F-midpoint-1337 on physical GPU 0\n"}
+,{"stream_name":"stdout","time":48.764623441,"data":"Started G-checkpointed-1337 on physical GPU 1\n"}
+,{"stream_name":"stdout","time":1188.155747422,"data":"F-midpoint-1337 exit=0; tail={\n"}
+,{"stream_name":"stdout","time":1188.155817637,"data":"  \"run_id\": \"F-midpoint-1337\",\n"}
+,{"stream_name":"stdout","time":1188.155822992,"data":"  \"status\": \"COMPLETE\",\n"}
+,{"stream_name":"stdout","time":1188.155826429,"data":"  \"committed_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":1188.155829783,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":1188.155847794,"data":"  \"updates\": 888,\n"}
+,{"stream_name":"stdout","time":1188.155853419,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":1188.155858839,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":1188.15586448,"data":"  \"final_update_loss_nats\": 2.5695848547894022,\n"}
+,{"stream_name":"stdout","time":1188.155869961,"data":"  \"last_1m_training_loss_nats\": 2.6925303984375,\n"}
+,{"stream_name":"stdout","time":1188.155874984,"data":"  \"fixed_training_subset_loss_nats\": 2.96288700401783,\n"}
+,{"stream_name":"stdout","time":1188.155879495,"data":"  \"holdout_loss_nats\": 2.7751330900878908,\n"}
+,{"stream_name":"stdout","time":1188.155884018,"data":"  \"holdout_perplexity\": 16.040761719984342,\n"}
+,{"stream_name":"stdout","time":1188.155888517,"data":"  \"training_seconds\": 1107.7601508599992,\n"}
+,{"stream_name":"stdout","time":1188.155893099,"data":"  \"job_seconds\": 1132.657422535,\n"}
+,{"stream_name":"stdout","time":1188.155897635,"data":"  \"training_tokens_per_second\": 45136.12442294748,\n"}
+,{"stream_name":"stdout","time":1188.155902226,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":1188.155906727,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":1188.155911308,"data":"  \"effective_batch\": 110,\n"}
+,{"stream_name":"stdout","time":1188.155927757,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":1188.155946059,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":1188.155951073,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":1188.155956104,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":1188.155961446,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":1188.155973481,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":1188.155977626,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":1188.155981943,"data":"  \"seed\": 1337,\n"}
+,{"stream_name":"stdout","time":1188.15598616,"data":"  \"peak_allocated_bytes\": 7329958912,\n"}
+,{"stream_name":"stdout","time":1188.155990407,"data":"  \"peak_reserved_bytes\": 9124708352,\n"}
+,{"stream_name":"stdout","time":1188.155994677,"data":"  \"checkpoint_sha256\": \"207f1068812c6f0c0e5fa7eb81befbe302d6ccb7bb3f2859c3383346dfc3f518\",\n"}
+,{"stream_name":"stdout","time":1188.155999239,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":1188.156017814,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":1188.15602732,"data":"}\n"}
+,{"stream_name":"stdout","time":1188.156030339,"data":"\n"}
+,{"stream_name":"stdout","time":1188.156044765,"data":"G-checkpointed-1337 exit=0; tail={\n"}
+,{"stream_name":"stdout","time":1188.156048829,"data":"  \"run_id\": \"G-checkpointed-1337\",\n"}
+,{"stream_name":"stdout","time":1188.156052829,"data":"  \"status\": \"COMPLETE\",\n"}
+,{"stream_name":"stdout","time":1188.156057025,"data":"  \"committed_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":1188.156061047,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":1188.156064565,"data":"  \"updates\": 888,\n"}
+,{"stream_name":"stdout","time":1188.15606783,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":1188.156071042,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":1188.156074427,"data":"  \"final_update_loss_nats\": 2.6338631892549818,\n"}
+,{"stream_name":"stdout","time":1188.15607776,"data":"  \"last_1m_training_loss_nats\": 2.7660874921875,\n"}
+,{"stream_name":"stdout","time":1188.156081078,"data":"  \"fixed_training_subset_loss_nats\": 3.0409036576747894,\n"}
+,{"stream_name":"stdout","time":1188.156084456,"data":"  \"holdout_loss_nats\": 2.8506458498535157,\n"}
+,{"stream_name":"stdout","time":1188.156087743,"data":"  \"holdout_perplexity\": 17.298950758270678,\n"}
+,{"stream_name":"stdout","time":1188.156091063,"data":"  \"training_seconds\": 821.2833327419983,\n"}
+,{"stream_name":"stdout","time":1188.156094317,"data":"  \"job_seconds\": 844.583358562,\n"}
+,{"stream_name":"stdout","time":1188.156097603,"data":"  \"training_tokens_per_second\": 60880.32960935204,\n"}
+,{"stream_name":"stdout","time":1188.156101047,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":1188.156104321,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":1188.156107539,"data":"  \"effective_batch\": 110,\n"}
+,{"stream_name":"stdout","time":1188.156110754,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":1188.156114064,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":1188.156119065,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":1188.156139053,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":1188.156143763,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":1188.156148148,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":1188.156152135,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":1188.156156042,"data":"  \"seed\": 1337,\n"}
+,{"stream_name":"stdout","time":1188.156161002,"data":"  \"peak_allocated_bytes\": 7937215488,\n"}
+,{"stream_name":"stdout","time":1188.156164432,"data":"  \"peak_reserved_bytes\": 9470738432,\n"}
+,{"stream_name":"stdout","time":1188.15616777,"data":"  \"checkpoint_sha256\": \"b3de5713aebe3f7b090a7e319b7fb69191d1589e422bccef123591150ecbe9a2\",\n"}
+,{"stream_name":"stdout","time":1188.15617145,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":1188.156174958,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":1188.156178578,"data":"}\n"}
+,{"stream_name":"stdout","time":1188.156181728,"data":"\n"}
+,{"stream_name":"stdout","time":1188.156533743,"data":"Started A-3141 on physical GPU 0\n"}
+,{"stream_name":"stdout","time":1188.157489451,"data":"Started B-3141 on physical GPU 1\n"}
+,{"stream_name":"stdout","time":2256.831952395,"data":"A-3141 exit=0; tail={\n"}
+,{"stream_name":"stdout","time":2256.831997247,"data":"  \"run_id\": \"A-3141\",\n"}
+,{"stream_name":"stdout","time":2256.832005414,"data":"  \"status\": \"COMPLETE\",\n"}
+,{"stream_name":"stdout","time":2256.832011558,"data":"  \"committed_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2256.832017757,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2256.832023337,"data":"  \"updates\": 888,\n"}
+,{"stream_name":"stdout","time":2256.832029069,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":2256.832035749,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":2256.832041466,"data":"  \"final_update_loss_nats\": 2.639048877660779,\n"}
+,{"stream_name":"stdout","time":2256.832047755,"data":"  \"last_1m_training_loss_nats\": 2.7772836328125,\n"}
+,{"stream_name":"stdout","time":2256.832053111,"data":"  \"fixed_training_subset_loss_nats\": 3.052015148103237,\n"}
+,{"stream_name":"stdout","time":2256.832058864,"data":"  \"holdout_loss_nats\": 2.8624707108154297,\n"}
+,{"stream_name":"stdout","time":2256.832064644,"data":"  \"holdout_perplexity\": 17.50472266013309,\n"}
+,{"stream_name":"stdout","time":2256.832071794,"data":"  \"training_seconds\": 714.7955357179969,\n"}
+,{"stream_name":"stdout","time":2256.832078227,"data":"  \"job_seconds\": 738.6185769040001,\n"}
+,{"stream_name":"stdout","time":2256.832084296,"data":"  \"training_tokens_per_second\": 69950.0731349365,\n"}
+,{"stream_name":"stdout","time":2256.832114307,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2256.832119296,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2256.832122801,"data":"  \"effective_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2256.832126266,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":2256.832129616,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":2256.832133301,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2256.832136895,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":2256.83214041,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":2256.832143892,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":2256.832148004,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":2256.832171293,"data":"  \"seed\": 3141,\n"}
+,{"stream_name":"stdout","time":2256.832177632,"data":"  \"peak_allocated_bytes\": 14261529600,\n"}
+,{"stream_name":"stdout","time":2256.832183585,"data":"  \"peak_reserved_bytes\": 15376318464,\n"}
+,{"stream_name":"stdout","time":2256.832190056,"data":"  \"checkpoint_sha256\": \"831d835279753389befe3f369e3ad3595d4bcd77317d1df72c0cc6ff95c43ab7\",\n"}
+,{"stream_name":"stdout","time":2256.832195803,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":2256.832201277,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":2256.832206647,"data":"}\n"}
+,{"stream_name":"stdout","time":2256.832211616,"data":"\n"}
+,{"stream_name":"stdout","time":2256.832235655,"data":"B-3141 exit=0; tail={\n"}
+,{"stream_name":"stdout","time":2256.832239778,"data":"  \"run_id\": \"B-3141\",\n"}
+,{"stream_name":"stdout","time":2256.832243412,"data":"  \"status\": \"COMPLETE\",\n"}
+,{"stream_name":"stdout","time":2256.832246918,"data":"  \"committed_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2256.832279339,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2256.83228501,"data":"  \"updates\": 888,\n"}
+,{"stream_name":"stdout","time":2256.832289897,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":2256.832294637,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":2256.832298672,"data":"  \"final_update_loss_nats\": 2.533054871490036,\n"}
+,{"stream_name":"stdout","time":2256.832302733,"data":"  \"last_1m_training_loss_nats\": 2.664634,\n"}
+,{"stream_name":"stdout","time":2256.832306775,"data":"  \"fixed_training_subset_loss_nats\": 2.9357952922582626,\n"}
+,{"stream_name":"stdout","time":2256.832310842,"data":"  \"holdout_loss_nats\": 2.746842215209961,\n"}
+,{"stream_name":"stdout","time":2256.832314822,"data":"  \"holdout_perplexity\": 15.5933137281913,\n"}
+,{"stream_name":"stdout","time":2256.83231884,"data":"  \"training_seconds\": 1035.6239572180004,\n"}
+,{"stream_name":"stdout","time":2256.832322854,"data":"  \"job_seconds\": 1059.073848947,\n"}
+,{"stream_name":"stdout","time":2256.832326838,"data":"  \"training_tokens_per_second\": 48280.07275373886,\n"}
+,{"stream_name":"stdout","time":2256.832330822,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2256.832334866,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2256.832338857,"data":"  \"effective_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2256.832349688,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":2256.832352752,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":2256.832355451,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2256.832373337,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":2256.832378202,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":2256.83238311,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":2256.832387584,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":2256.832392161,"data":"  \"seed\": 3141,\n"}
+,{"stream_name":"stdout","time":2256.832396488,"data":"  \"peak_allocated_bytes\": 7415548928,\n"}
+,{"stream_name":"stdout","time":2256.832400368,"data":"  \"peak_reserved_bytes\": 8950644736,\n"}
+,{"stream_name":"stdout","time":2256.832404309,"data":"  \"checkpoint_sha256\": \"340184194dcc1d9f0e4e81a2484973ae9f9d4a9017a7bad5246329a7f50c98fd\",\n"}
+,{"stream_name":"stdout","time":2256.832408734,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":2256.832413252,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":2256.832417499,"data":"}\n"}
+,{"stream_name":"stdout","time":2256.832421242,"data":"\n"}
+,{"stream_name":"stdout","time":2256.833327831,"data":"Started C-3141 on physical GPU 0\n"}
+,{"stream_name":"stdout","time":3375.434098426,"data":"C-3141 exit=0; tail={\n"}
+,{"stream_name":"stdout","time":3375.434135424,"data":"  \"run_id\": \"C-3141\",\n"}
+,{"stream_name":"stdout","time":3375.434164422,"data":"  \"status\": \"COMPLETE\",\n"}
+,{"stream_name":"stdout","time":3375.434169679,"data":"  \"committed_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":3375.434173754,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":3375.434177724,"data":"  \"updates\": 509,\n"}
+,{"stream_name":"stdout","time":3375.434181602,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":3375.434186138,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":3375.434202244,"data":"  \"final_update_loss_nats\": 2.892192118876689,\n"}
+,{"stream_name":"stdout","time":3375.434206545,"data":"  \"last_1m_training_loss_nats\": 3.04003709375,\n"}
+,{"stream_name":"stdout","time":3375.434210559,"data":"  \"fixed_training_subset_loss_nats\": 3.2931443974375725,\n"}
+,{"stream_name":"stdout","time":3375.434214369,"data":"  \"holdout_loss_nats\": 3.117596088623047,\n"}
+,{"stream_name":"stdout","time":3375.434218088,"data":"  \"holdout_perplexity\": 22.592005135438153,\n"}
+,{"stream_name":"stdout","time":3375.434222138,"data":"  \"training_seconds\": 1086.0973627720014,\n"}
+,{"stream_name":"stdout","time":3375.434225775,"data":"  \"job_seconds\": 1109.403341267,\n"}
+,{"stream_name":"stdout","time":3375.434229446,"data":"  \"training_tokens_per_second\": 46036.38836981159,\n"}
+,{"stream_name":"stdout","time":3375.434233246,"data":"  \"physical_batch\": 192,\n"}
+,{"stream_name":"stdout","time":3375.434237197,"data":"  \"global_batch\": 192,\n"}
+,{"stream_name":"stdout","time":3375.434240762,"data":"  \"effective_batch\": 192,\n"}
+,{"stream_name":"stdout","time":3375.434244379,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":3375.434248175,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":3375.434251938,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":3375.434255846,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":3375.434259525,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":3375.434263321,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":3375.43426683,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":3375.434270877,"data":"  \"seed\": 3141,\n"}
+,{"stream_name":"stdout","time":3375.434274288,"data":"  \"peak_allocated_bytes\": 12743977984,\n"}
+,{"stream_name":"stdout","time":3375.434278458,"data":"  \"peak_reserved_bytes\": 15485370368,\n"}
+,{"stream_name":"stdout","time":3375.434282392,"data":"  \"checkpoint_sha256\": \"b9415ad760f6fcab628db0638d839a2aa2bf173a7624f49a186d36f3798b4e7f\",\n"}
+,{"stream_name":"stdout","time":3375.43428655,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":3375.434290803,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":3375.434294695,"data":"}\n"}
+,{"stream_name":"stdout","time":3375.434298418,"data":"\n"}
+,{"stream_name":"stderr","time":3377.428212318,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3377.428295455,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3377.665977408,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3377.666005972,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3378.270442759,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3379.437495885,"data":"[NbConvertApp] Writing 309705 bytes to __results__.html\n"}
+]

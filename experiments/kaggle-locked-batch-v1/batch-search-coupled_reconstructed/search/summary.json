@@ -1,0 +1,7 @@
+{
+  "status": "VALIDATED",
+  "largest_stable_batch": 191,
+  "smallest_observed_oom_batch": 192,
+  "boundary_type": "observed_oom",
+  "trials_log": "/kaggle/working/batch-search-coupled_reconstructed/search/trials.jsonl"
+}

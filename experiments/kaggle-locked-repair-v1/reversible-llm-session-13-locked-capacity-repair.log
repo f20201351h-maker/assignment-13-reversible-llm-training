@@ -1,0 +1,523 @@
+[{"stream_name":"stdout","time":24.991802057,"data":"Full-run numerical gate exit=0:  \n"}
+,{"stream_name":"stdout","time":396.300075738,"data":"Exact training-path preflight C-L191-1337 exit=0: {\n"}
+,{"stream_name":"stdout","time":396.300120226,"data":"  \"run_id\": \"preflight-C-L191-1337\",\n"}
+,{"stream_name":"stdout","time":396.300126477,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":396.30013113,"data":"  \"committed_targets\": 19558400,\n"}
+,{"stream_name":"stdout","time":396.300135633,"data":"  \"attempted_targets\": 19558400,\n"}
+,{"stream_name":"stdout","time":396.300139933,"data":"  \"updates\": 200,\n"}
+,{"stream_name":"stdout","time":396.300144276,"data":"  \"checkpoint_sha256\": \"d08f92aa7aab73b49151842749571b9eaff642d70d0ae6d4df3e37b254e3fa55\",\n"}
+,{"stream_name":"stdout","time":396.300149069,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":396.300153373,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":396.300157795,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":396.300167466,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":396.300171334,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":396.30017436,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":396.300177408,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":396.300180441,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":396.300183415,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":396.300186536,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":396.300189491,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":396.300192612,"data":"    },\n"}
+,{"stream_name":"stdout","time":396.300195586,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":396.300198588,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":396.300201737,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":396.300205019,"data":"      \"batch_size\": 191,\n"}
+,{"stream_name":"stdout","time":396.300208393,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":396.300211474,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":396.300214441,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":396.300217536,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":396.300220464,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":396.300223403,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":396.300226421,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":396.300229411,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":396.300232429,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":396.30023552,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":396.30023852,"data":"      ],\n"}
+,{"stream_name":"stdout","time":396.300241408,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":396.300244418,"data":"    }\n"}
+,{"stream_name":"stdout","time":396.300247287,"data":"  }\n"}
+,{"stream_name":"stdout","time":396.300250206,"data":"}\n"}
+,{"stream_name":"stdout","time":396.300253143,"data":" /usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":396.300268441,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":396.30027097,"data":"\n"}
+,{"stream_name":"stdout","time":776.938209939,"data":"Exact training-path preflight E-L191-1337 exit=0: {\n"}
+,{"stream_name":"stdout","time":776.938269157,"data":"  \"run_id\": \"preflight-E-L191-1337\",\n"}
+,{"stream_name":"stdout","time":776.938275501,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":776.938283646,"data":"  \"committed_targets\": 19558400,\n"}
+,{"stream_name":"stdout","time":776.938287489,"data":"  \"attempted_targets\": 19558400,\n"}
+,{"stream_name":"stdout","time":776.938290656,"data":"  \"updates\": 200,\n"}
+,{"stream_name":"stdout","time":776.938293852,"data":"  \"checkpoint_sha256\": \"bb1fc205de44d21ee9d041afb3050b559ae614277ff5d431ab5001b8eddd625b\",\n"}
+,{"stream_name":"stdout","time":776.938297191,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":776.938300388,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":776.938303548,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":776.938306536,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":776.938310124,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":776.93831312,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":776.938316168,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":776.938319246,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":776.938334374,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":776.938340314,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":776.938345438,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":776.938350647,"data":"    },\n"}
+,{"stream_name":"stdout","time":776.938354969,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":776.938359231,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":776.938363624,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":776.938368103,"data":"      \"batch_size\": 110,\n"}
+,{"stream_name":"stdout","time":776.938372372,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":776.938376699,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":776.938381016,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":776.938385618,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":776.938389969,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":776.938394356,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":776.938402059,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":776.938405335,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":776.938408644,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":776.938411846,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":776.938414877,"data":"      ],\n"}
+,{"stream_name":"stdout","time":776.938427322,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":776.938445804,"data":"    }\n"}
+,{"stream_name":"stdout","time":776.938449496,"data":"  }\n"}
+,{"stream_name":"stdout","time":776.938452749,"data":"}\n"}
+,{"stream_name":"stdout","time":776.938456019,"data":" /usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":776.938464802,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":776.938468248,"data":"\n"}
+,{"stream_name":"stdout","time":783.774247004,"data":"Exact training-path preflight A-L-2027 exit=0: {\n"}
+,{"stream_name":"stdout","time":783.774289309,"data":"  \"run_id\": \"preflight-A-L-2027\",\n"}
+,{"stream_name":"stdout","time":783.774295212,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":783.774299879,"data":"  \"committed_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":783.774304509,"data":"  \"attempted_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":783.774308964,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":783.77431714,"data":"  \"checkpoint_sha256\": \"0a7aea115414fa3932f132829a6f23deb7c47149692ee116166d56b485363643\",\n"}
+,{"stream_name":"stdout","time":783.774321177,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":783.774324416,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":783.77432774,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":783.774330882,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":783.774334058,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":783.774337105,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":783.77434017,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":783.774343222,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":783.774346208,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":783.774349215,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":783.774352656,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":783.774355685,"data":"    },\n"}
+,{"stream_name":"stdout","time":783.774358594,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":783.774361572,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":783.774364616,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":783.774367707,"data":"      \"batch_size\": 110,\n"}
+,{"stream_name":"stdout","time":783.774370721,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":783.774373719,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":783.774376662,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":783.774379657,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":783.774382646,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":783.774385642,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":783.774388668,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":783.774391721,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":783.774394764,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":783.774410115,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":783.774412648,"data":"      ],\n"}
+,{"stream_name":"stdout","time":783.774414814,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":783.77441708,"data":"    }\n"}
+,{"stream_name":"stdout","time":783.774419235,"data":"  }\n"}
+,{"stream_name":"stdout","time":783.77442504,"data":"}\n"}
+,{"stream_name":"stdout","time":783.774427411,"data":" /usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":783.774430089,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":783.774432312,"data":"\n"}
+,{"stream_name":"stdout","time":790.897012601,"data":"Exact training-path preflight B-L-2027 exit=0: {\n"}
+,{"stream_name":"stdout","time":790.89704907,"data":"  \"run_id\": \"preflight-B-L-2027\",\n"}
+,{"stream_name":"stdout","time":790.897055946,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":790.897061095,"data":"  \"committed_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":790.897066569,"data":"  \"attempted_targets\": 56320,\n"}
+,{"stream_name":"stdout","time":790.897071162,"data":"  \"updates\": 1,\n"}
+,{"stream_name":"stdout","time":790.897092465,"data":"  \"checkpoint_sha256\": \"445b1fe34bbd48af1759c5bceb4c08d973682771feade5a9cced8d6b924d487d\",\n"}
+,{"stream_name":"stdout","time":790.897097746,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":790.897103032,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":790.897108053,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":790.897112934,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":790.89711757,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":790.897122195,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":790.897126837,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":790.897131574,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":790.897136225,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":790.897140711,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":790.897145752,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":790.897151478,"data":"    },\n"}
+,{"stream_name":"stdout","time":790.897156286,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":790.897161204,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":790.897165827,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":790.897170716,"data":"      \"batch_size\": 110,\n"}
+,{"stream_name":"stdout","time":790.89717531,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":790.89718018,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":790.897185373,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":790.897189825,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":790.897194374,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":790.89719975,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":790.897204762,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":790.897226161,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":790.897230377,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":790.897234248,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":790.897238192,"data":"      ],\n"}
+,{"stream_name":"stdout","time":790.897241833,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":790.897245632,"data":"    }\n"}
+,{"stream_name":"stdout","time":790.897252894,"data":"  }\n"}
+,{"stream_name":"stdout","time":790.897256554,"data":"}\n"}
+,{"stream_name":"stdout","time":790.897260299,"data":" /usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":790.89726495,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":790.897268573,"data":"\n"}
+,{"stream_name":"stdout","time":1172.617232228,"data":"Exact training-path preflight C-L191-2027 exit=0: {\n"}
+,{"stream_name":"stdout","time":1172.617279276,"data":"  \"run_id\": \"preflight-C-L191-2027\",\n"}
+,{"stream_name":"stdout","time":1172.617285976,"data":"  \"status\": \"INCOMPLETE\",\n"}
+,{"stream_name":"stdout","time":1172.617290481,"data":"  \"committed_targets\": 19558400,\n"}
+,{"stream_name":"stdout","time":1172.617294975,"data":"  \"attempted_targets\": 19558400,\n"}
+,{"stream_name":"stdout","time":1172.617299431,"data":"  \"updates\": 200,\n"}
+,{"stream_name":"stdout","time":1172.617303808,"data":"  \"checkpoint_sha256\": \"7797e072e864c5c69f88f1cca4e6c67f8b2079c849ecd517c9436683962b1f76\",\n"}
+,{"stream_name":"stdout","time":1172.617308584,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":1172.617313407,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":1172.617318559,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":1172.617323739,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":1172.617328349,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":1172.617332862,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":1172.617337544,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":1172.617342104,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":1172.617347205,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":1172.617352002,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":1172.61735706,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":1172.617361833,"data":"    },\n"}
+,{"stream_name":"stdout","time":1172.617366755,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":1172.61737171,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":1172.617376623,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":1172.617381373,"data":"      \"batch_size\": 191,\n"}
+,{"stream_name":"stdout","time":1172.61738577,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":1172.61739062,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":1172.617394999,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":1172.617399574,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":1172.617416353,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":1172.617419777,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":1172.617423541,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":1172.617426804,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":1172.617430135,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":1172.617434218,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":1172.617437685,"data":"      ],\n"}
+,{"stream_name":"stdout","time":1172.617441529,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":1172.617445536,"data":"    }\n"}
+,{"stream_name":"stdout","time":1172.617448745,"data":"  }\n"}
+,{"stream_name":"stdout","time":1172.617452643,"data":"}\n"}
+,{"stream_name":"stdout","time":1172.617456499,"data":" /usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":1172.617461959,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":1172.617465112,"data":"\n"}
+,{"stream_name":"stdout","time":1172.619717183,"data":"Started C-L191-1337 on physical GPU 0\n"}
+,{"stream_name":"stdout","time":1172.619740969,"data":"Started E-L191-1337 on physical GPU 1\n"}
+,{"stream_name":"stdout","time":2211.586522088,"data":"C-L191-1337 exit=0; tail=\": 50000000,\n"}
+,{"stream_name":"stdout","time":2211.58656212,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2211.586568875,"data":"  \"updates\": 512,\n"}
+,{"stream_name":"stdout","time":2211.586573809,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":2211.586578881,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":2211.586583901,"data":"  \"final_update_loss_nats\": 2.8936902904942023,\n"}
+,{"stream_name":"stdout","time":2211.586588843,"data":"  \"last_1m_training_loss_nats\": 2.9939348828125,\n"}
+,{"stream_name":"stdout","time":2211.586593759,"data":"  \"fixed_training_subset_loss_nats\": 3.2492039799690247,\n"}
+,{"stream_name":"stdout","time":2211.586598594,"data":"  \"holdout_loss_nats\": 3.0717848221435546,\n"}
+,{"stream_name":"stdout","time":2211.586603239,"data":"  \"holdout_perplexity\": 21.580385472169457,\n"}
+,{"stream_name":"stdout","time":2211.586607915,"data":"  \"training_seconds\": 952.8080320100037,\n"}
+,{"stream_name":"stdout","time":2211.586612626,"data":"  \"job_seconds\": 974.8027309050001,\n"}
+,{"stream_name":"stdout","time":2211.586617486,"data":"  \"training_tokens_per_second\": 52476.467788083304,\n"}
+,{"stream_name":"stdout","time":2211.586622265,"data":"  \"physical_batch\": 191,\n"}
+,{"stream_name":"stdout","time":2211.586649183,"data":"  \"global_batch\": 191,\n"}
+,{"stream_name":"stdout","time":2211.586654118,"data":"  \"effective_batch\": 191,\n"}
+,{"stream_name":"stdout","time":2211.586658795,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":2211.586663438,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":2211.586668171,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2211.586672723,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":2211.586677701,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":2211.586699531,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":2211.586703359,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":2211.586706667,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":2211.586710481,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":2211.586713994,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2211.586717937,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":2211.586721994,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":2211.586725793,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":2211.58672941,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":2211.586732885,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":2211.586736334,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":2211.586739798,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":2211.586743777,"data":"    },\n"}
+,{"stream_name":"stdout","time":2211.586747537,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":2211.586751523,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":2211.586755518,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":2211.58675982,"data":"      \"batch_size\": 191,\n"}
+,{"stream_name":"stdout","time":2211.586763663,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":2211.586767915,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":2211.586771911,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":2211.586775801,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":2211.586780092,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":2211.586783691,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":2211.586787557,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":2211.586791963,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":2211.586795911,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":2211.586800046,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":2211.586804055,"data":"      ],\n"}
+,{"stream_name":"stdout","time":2211.586807917,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":2211.586811758,"data":"    }\n"}
+,{"stream_name":"stdout","time":2211.586826492,"data":"  },\n"}
+,{"stream_name":"stdout","time":2211.586829922,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":2211.586833433,"data":"  \"seed\": 1337,\n"}
+,{"stream_name":"stdout","time":2211.586836578,"data":"  \"peak_allocated_bytes\": 12678169600,\n"}
+,{"stream_name":"stdout","time":2211.586839848,"data":"  \"peak_reserved_bytes\": 15424552960,\n"}
+,{"stream_name":"stdout","time":2211.5868435,"data":"  \"checkpoint_sha256\": \"1e7b630b0a570a488892d2b78e1c479aa5666aa3950ed1de95f38a60ff4b4cd2\",\n"}
+,{"stream_name":"stdout","time":2211.586847346,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":2211.586850954,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":2211.586854825,"data":"}\n"}
+,{"stream_name":"stdout","time":2211.58686425,"data":"\n"}
+,{"stream_name":"stdout","time":2211.586869725,"data":"E-L191-1337 exit=0; tail=ed_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2211.586873205,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":2211.586876325,"data":"  \"updates\": 512,\n"}
+,{"stream_name":"stdout","time":2211.586879508,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":2211.586882771,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":2211.586886216,"data":"  \"final_update_loss_nats\": 2.895197941706731,\n"}
+,{"stream_name":"stdout","time":2211.586889345,"data":"  \"last_1m_training_loss_nats\": 2.9946906875,\n"}
+,{"stream_name":"stdout","time":2211.58689258,"data":"  \"fixed_training_subset_loss_nats\": 3.2501141875982285,\n"}
+,{"stream_name":"stdout","time":2211.586896006,"data":"  \"holdout_loss_nats\": 3.072389580078125,\n"}
+,{"stream_name":"stdout","time":2211.586898991,"data":"  \"holdout_perplexity\": 21.59344032863097,\n"}
+,{"stream_name":"stdout","time":2211.586902818,"data":"  \"training_seconds\": 1001.8128516010045,\n"}
+,{"stream_name":"stdout","time":2211.586906526,"data":"  \"job_seconds\": 1024.618200894,\n"}
+,{"stream_name":"stdout","time":2211.586910233,"data":"  \"training_tokens_per_second\": 49909.521444144615,\n"}
+,{"stream_name":"stdout","time":2211.586913972,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2211.586917191,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":2211.586920542,"data":"  \"effective_batch\": 191,\n"}
+,{"stream_name":"stdout","time":2211.586924098,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":2211.586927721,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":2211.586931196,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2211.586934748,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":2211.586938318,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":2211.586942031,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":2211.586945355,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":2211.586948991,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":2211.586952804,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":2211.586956505,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":2211.586960056,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":2211.586963664,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":2211.586967216,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":2211.586970854,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":2211.586974551,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":2211.586978246,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":2211.586981875,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":2211.586985337,"data":"    },\n"}
+,{"stream_name":"stdout","time":2211.586988569,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":2211.586992085,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":2211.586995698,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":2211.586999424,"data":"      \"batch_size\": 110,\n"}
+,{"stream_name":"stdout","time":2211.58700298,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":2211.587010411,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":2211.587014084,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":2211.587017618,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":2211.587021203,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":2211.587024755,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":2211.587028373,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":2211.587042353,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":2211.587046127,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":2211.587049862,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":2211.587053578,"data":"      ],\n"}
+,{"stream_name":"stdout","time":2211.587056891,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":2211.587060486,"data":"    }\n"}
+,{"stream_name":"stdout","time":2211.58706384,"data":"  },\n"}
+,{"stream_name":"stdout","time":2211.587067185,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":2211.587070556,"data":"  \"seed\": 1337,\n"}
+,{"stream_name":"stdout","time":2211.587074012,"data":"  \"peak_allocated_bytes\": 7418235904,\n"}
+,{"stream_name":"stdout","time":2211.587077656,"data":"  \"peak_reserved_bytes\": 8948547584,\n"}
+,{"stream_name":"stdout","time":2211.587081268,"data":"  \"checkpoint_sha256\": \"9691e82698e6e50bafd96341e016b843505d5742fa05616cd2aae2f41ca38f58\",\n"}
+,{"stream_name":"stdout","time":2211.587085181,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":2211.587088948,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":2211.587092716,"data":"}\n"}
+,{"stream_name":"stdout","time":2211.587096179,"data":"\n"}
+,{"stream_name":"stdout","time":2211.58753283,"data":"Started A-L-2027 on physical GPU 0\n"}
+,{"stream_name":"stdout","time":2211.588301491,"data":"Started B-L-2027 on physical GPU 1\n"}
+,{"stream_name":"stdout","time":3280.259546885,"data":"A-L-2027 exit=0; tail=ets\": 50000000,\n"}
+,{"stream_name":"stdout","time":3280.259588252,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":3280.259594745,"data":"  \"updates\": 888,\n"}
+,{"stream_name":"stdout","time":3280.259599619,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":3280.259605276,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":3280.259609935,"data":"  \"final_update_loss_nats\": 2.632531384454257,\n"}
+,{"stream_name":"stdout","time":3280.259615026,"data":"  \"last_1m_training_loss_nats\": 2.7696006171875,\n"}
+,{"stream_name":"stdout","time":3280.259619757,"data":"  \"fixed_training_subset_loss_nats\": 3.0420049279928207,\n"}
+,{"stream_name":"stdout","time":3280.259645581,"data":"  \"holdout_loss_nats\": 2.853359813232422,\n"}
+,{"stream_name":"stdout","time":3280.259653396,"data":"  \"holdout_perplexity\": 17.345963243347306,\n"}
+,{"stream_name":"stdout","time":3280.259659742,"data":"  \"training_seconds\": 610.8913876540059,\n"}
+,{"stream_name":"stdout","time":3280.259664486,"data":"  \"job_seconds\": 632.7875902350002,\n"}
+,{"stream_name":"stdout","time":3280.259669401,"data":"  \"training_tokens_per_second\": 81847.60991968475,\n"}
+,{"stream_name":"stdout","time":3280.259688594,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":3280.25969287,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":3280.259696118,"data":"  \"effective_batch\": 110,\n"}
+,{"stream_name":"stdout","time":3280.259699262,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":3280.259702902,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":3280.259706192,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":3280.259709597,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":3280.259712632,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":3280.259715994,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":3280.259719116,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":3280.259722427,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":3280.259726013,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":3280.259729211,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":3280.259732836,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":3280.259736128,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":3280.25973915,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":3280.259742875,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":3280.259746879,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":3280.259750787,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":3280.259754063,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":3280.259757279,"data":"    },\n"}
+,{"stream_name":"stdout","time":3280.259760476,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":3280.259764052,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":3280.25976758,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":3280.259771265,"data":"      \"batch_size\": 110,\n"}
+,{"stream_name":"stdout","time":3280.259774918,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":3280.259778379,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":3280.259781586,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":3280.259784811,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":3280.259799512,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":3280.259803064,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":3280.259806596,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":3280.25981019,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":3280.259814004,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":3280.259817879,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":3280.259821472,"data":"      ],\n"}
+,{"stream_name":"stdout","time":3280.259824873,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":3280.259828414,"data":"    }\n"}
+,{"stream_name":"stdout","time":3280.259831786,"data":"  },\n"}
+,{"stream_name":"stdout","time":3280.259835125,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":3280.259838738,"data":"  \"seed\": 2027,\n"}
+,{"stream_name":"stdout","time":3280.259847416,"data":"  \"peak_allocated_bytes\": 14263155712,\n"}
+,{"stream_name":"stdout","time":3280.259851099,"data":"  \"peak_reserved_bytes\": 15397289984,\n"}
+,{"stream_name":"stdout","time":3280.259854773,"data":"  \"checkpoint_sha256\": \"10e7c6d15a1548073c419c77e6d437a5179380910463b78f2371b1a52836cd41\",\n"}
+,{"stream_name":"stdout","time":3280.259858422,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":3280.259862285,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":3280.259866159,"data":"}\n"}
+,{"stream_name":"stdout","time":3280.259869459,"data":"\n"}
+,{"stream_name":"stdout","time":3280.259874899,"data":"B-L-2027 exit=0; tail=rgets\": 50000000,\n"}
+,{"stream_name":"stdout","time":3280.25987858,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":3280.259882187,"data":"  \"updates\": 888,\n"}
+,{"stream_name":"stdout","time":3280.259885796,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":3280.259889294,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":3280.259892902,"data":"  \"final_update_loss_nats\": 2.5623121178668478,\n"}
+,{"stream_name":"stdout","time":3280.259896629,"data":"  \"last_1m_training_loss_nats\": 2.691522109375,\n"}
+,{"stream_name":"stdout","time":3280.259900256,"data":"  \"fixed_training_subset_loss_nats\": 2.9622087106108665,\n"}
+,{"stream_name":"stdout","time":3280.259903628,"data":"  \"holdout_loss_nats\": 2.773651153076172,\n"}
+,{"stream_name":"stdout","time":3280.259907305,"data":"  \"holdout_perplexity\": 16.0170079266553,\n"}
+,{"stream_name":"stdout","time":3280.259910897,"data":"  \"training_seconds\": 1030.9027810750035,\n"}
+,{"stream_name":"stdout","time":3280.259914572,"data":"  \"job_seconds\": 1053.7396062880002,\n"}
+,{"stream_name":"stdout","time":3280.259918025,"data":"  \"training_tokens_per_second\": 48501.17869297148,\n"}
+,{"stream_name":"stdout","time":3280.259921631,"data":"  \"physical_batch\": 110,\n"}
+,{"stream_name":"stdout","time":3280.259929325,"data":"  \"global_batch\": 110,\n"}
+,{"stream_name":"stdout","time":3280.259932981,"data":"  \"effective_batch\": 110,\n"}
+,{"stream_name":"stdout","time":3280.259936317,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":3280.259939594,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":3280.259942826,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":3280.259945996,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":3280.259949381,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":3280.259952721,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":3280.259956216,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":3280.259959879,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":3280.259963844,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":3280.259967951,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":3280.259971943,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":3280.259975751,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":3280.259979445,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":3280.259982792,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":3280.259986286,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":3280.259993964,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":3280.259998126,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":3280.260001714,"data":"    },\n"}
+,{"stream_name":"stdout","time":3280.260005314,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":3280.260009161,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":3280.260012878,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":3280.260017056,"data":"      \"batch_size\": 110,\n"}
+,{"stream_name":"stdout","time":3280.260020974,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":3280.260024788,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":3280.260028426,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":3280.260031752,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":3280.260035009,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":3280.260039872,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":3280.26004474,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":3280.260051629,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":3280.260054096,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":3280.260056454,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":3280.260058803,"data":"      ],\n"}
+,{"stream_name":"stdout","time":3280.260061049,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":3280.260064392,"data":"    }\n"}
+,{"stream_name":"stdout","time":3280.260066623,"data":"  },\n"}
+,{"stream_name":"stdout","time":3280.260068841,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":3280.260071824,"data":"  \"seed\": 2027,\n"}
+,{"stream_name":"stdout","time":3280.260074027,"data":"  \"peak_allocated_bytes\": 7418235904,\n"}
+,{"stream_name":"stdout","time":3280.260076401,"data":"  \"peak_reserved_bytes\": 8950644736,\n"}
+,{"stream_name":"stdout","time":3280.260078787,"data":"  \"checkpoint_sha256\": \"0eb205f509c44f2a9434b2b4ede17d68466a706d1ccef6d0fc75bdd09b761cdb\",\n"}
+,{"stream_name":"stdout","time":3280.260081225,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":3280.260083682,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":3280.260086151,"data":"}\n"}
+,{"stream_name":"stdout","time":3280.260088276,"data":"\n"}
+,{"stream_name":"stdout","time":3280.260443218,"data":"Started C-L191-2027 on physical GPU 0\n"}
+,{"stream_name":"stdout","time":4257.934759119,"data":"C-L191-2027 exit=0; tail=_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":4257.934814985,"data":"  \"attempted_targets\": 50000000,\n"}
+,{"stream_name":"stdout","time":4257.934820525,"data":"  \"updates\": 512,\n"}
+,{"stream_name":"stdout","time":4257.934823869,"data":"  \"retries\": 0,\n"}
+,{"stream_name":"stdout","time":4257.934827014,"data":"  \"parameter_count\": 19969152,\n"}
+,{"stream_name":"stdout","time":4257.934830094,"data":"  \"final_update_loss_nats\": 2.91921596613405,\n"}
+,{"stream_name":"stdout","time":4257.934833335,"data":"  \"last_1m_training_loss_nats\": 3.0175348125,\n"}
+,{"stream_name":"stdout","time":4257.934836433,"data":"  \"fixed_training_subset_loss_nats\": 3.274444118142128,\n"}
+,{"stream_name":"stdout","time":4257.934850071,"data":"  \"holdout_loss_nats\": 3.095928124145508,\n"}
+,{"stream_name":"stdout","time":4257.934867848,"data":"  \"holdout_perplexity\": 22.107747753016707,\n"}
+,{"stream_name":"stdout","time":4257.934871721,"data":"  \"training_seconds\": 945.4273871439964,\n"}
+,{"stream_name":"stdout","time":4257.934875657,"data":"  \"job_seconds\": 967.1104260749999,\n"}
+,{"stream_name":"stdout","time":4257.934879622,"data":"  \"training_tokens_per_second\": 52886.13454603107,\n"}
+,{"stream_name":"stdout","time":4257.934883816,"data":"  \"physical_batch\": 191,\n"}
+,{"stream_name":"stdout","time":4257.934887656,"data":"  \"global_batch\": 191,\n"}
+,{"stream_name":"stdout","time":4257.93489093,"data":"  \"effective_batch\": 191,\n"}
+,{"stream_name":"stdout","time":4257.934894278,"data":"  \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":4257.934897615,"data":"  \"world_size\": 1,\n"}
+,{"stream_name":"stdout","time":4257.934901172,"data":"  \"device\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":4257.934904618,"data":"  \"gpu_name\": \"Tesla T4\",\n"}
+,{"stream_name":"stdout","time":4257.934908211,"data":"  \"torch_version\": \"2.10.0+cu128\",\n"}
+,{"stream_name":"stdout","time":4257.934911797,"data":"  \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":4257.934919763,"data":"  \"attention_backend\": {\n"}
+,{"stream_name":"stdout","time":4257.934922306,"data":"    \"requested_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":4257.934924701,"data":"    \"effective_policy\": \"efficient\",\n"}
+,{"stream_name":"stdout","time":4257.934926982,"data":"    \"device_type\": \"cuda\",\n"}
+,{"stream_name":"stdout","time":4257.934929354,"data":"    \"cpu_fallback\": false,\n"}
+,{"stream_name":"stdout","time":4257.934931624,"data":"    \"fallback_reason\": null,\n"}
+,{"stream_name":"stdout","time":4257.934933879,"data":"    \"flags\": {\n"}
+,{"stream_name":"stdout","time":4257.934936095,"data":"      \"flash_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":4257.934938372,"data":"      \"mem_efficient_sdp_enabled\": true,\n"}
+,{"stream_name":"stdout","time":4257.934940661,"data":"      \"math_sdp_enabled\": false,\n"}
+,{"stream_name":"stdout","time":4257.934942937,"data":"      \"cudnn_sdp_enabled\": false\n"}
+,{"stream_name":"stdout","time":4257.93494522,"data":"    },\n"}
+,{"stream_name":"stdout","time":4257.934947371,"data":"    \"operator_probe\": {\n"}
+,{"stream_name":"stdout","time":4257.93494979,"data":"      \"profile_activity\": \"CPU\",\n"}
+,{"stream_name":"stdout","time":4257.934963735,"data":"      \"module\": \"revllm.model.CausalAttention\",\n"}
+,{"stream_name":"stdout","time":4257.934967877,"data":"      \"batch_size\": 191,\n"}
+,{"stream_name":"stdout","time":4257.93497184,"data":"      \"sequence_length\": 512,\n"}
+,{"stream_name":"stdout","time":4257.934975588,"data":"      \"heads\": 6,\n"}
+,{"stream_name":"stdout","time":4257.934979569,"data":"      \"head_dimension\": 64,\n"}
+,{"stream_name":"stdout","time":4257.934983432,"data":"      \"amp_fp16\": true,\n"}
+,{"stream_name":"stdout","time":4257.934986715,"data":"      \"operators\": [\n"}
+,{"stream_name":"stdout","time":4257.934990035,"data":"        \"aten::_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":4257.93499353,"data":"        \"aten::_efficient_attention_forward\",\n"}
+,{"stream_name":"stdout","time":4257.934996927,"data":"        \"aten::_scaled_dot_product_efficient_attention\",\n"}
+,{"stream_name":"stdout","time":4257.935000442,"data":"        \"aten::_scaled_dot_product_efficient_attention_backward\",\n"}
+,{"stream_name":"stdout","time":4257.935008245,"data":"        \"aten::scaled_dot_product_attention\"\n"}
+,{"stream_name":"stdout","time":4257.935011814,"data":"      ],\n"}
+,{"stream_name":"stdout","time":4257.935015076,"data":"      \"efficient_operator_observed\": true\n"}
+,{"stream_name":"stdout","time":4257.935018475,"data":"    }\n"}
+,{"stream_name":"stdout","time":4257.93502169,"data":"  },\n"}
+,{"stream_name":"stdout","time":4257.935025,"data":"  \"compile\": false,\n"}
+,{"stream_name":"stdout","time":4257.935033317,"data":"  \"seed\": 2027,\n"}
+,{"stream_name":"stdout","time":4257.935035843,"data":"  \"peak_allocated_bytes\": 12678169600,\n"}
+,{"stream_name":"stdout","time":4257.935038108,"data":"  \"peak_reserved_bytes\": 15424552960,\n"}
+,{"stream_name":"stdout","time":4257.935040392,"data":"  \"checkpoint_sha256\": \"40d9ac9190dc175f99f9b982d545e842c660a4ff6b6362c5abf211262a5bbfc5\",\n"}
+,{"stream_name":"stdout","time":4257.935043248,"data":"  \"data_sha256\": \"aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb\",\n"}
+,{"stream_name":"stdout","time":4257.935047116,"data":"  \"tokenizer_sha256\": \"4764060791e54b50d8d51f4369684cf69205230a9334d08574826b18856b1d74\"\n"}
+,{"stream_name":"stdout","time":4257.935061597,"data":"}\n"}
+,{"stream_name":"stdout","time":4257.935065727,"data":"\n"}
+,{"stream_name":"stderr","time":4260.8367008,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":4260.836799615,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":4261.373713539,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":4261.373741413,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":4262.190672478,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":4263.945396417,"data":"[NbConvertApp] Writing 314959 bytes to __results__.html\n"}
+]

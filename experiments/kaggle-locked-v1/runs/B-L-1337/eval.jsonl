@@ -1,0 +1,10 @@
+{"committed_targets": 5012480, "dev_loss_nats": 4.252470880746841, "dev_perplexity": 70.2788486422671}
+{"committed_targets": 10024960, "dev_loss_nats": 3.852102145552635, "dev_perplexity": 47.091953394798225}
+{"committed_targets": 15037440, "dev_loss_nats": 3.569892045110464, "dev_perplexity": 35.51275916869042}
+{"committed_targets": 20049920, "dev_loss_nats": 3.2930826619267464, "dev_perplexity": 26.925738802095527}
+{"committed_targets": 25062400, "dev_loss_nats": 3.096378743648529, "dev_perplexity": 22.117712180236094}
+{"committed_targets": 30074880, "dev_loss_nats": 2.9682147689163685, "dev_perplexity": 19.457153057674667}
+{"committed_targets": 35087360, "dev_loss_nats": 2.8690237514674664, "dev_perplexity": 17.61980848854598}
+{"committed_targets": 40099840, "dev_loss_nats": 2.8039920181035995, "dev_perplexity": 16.510425305910456}
+{"committed_targets": 45112320, "dev_loss_nats": 2.7618571259081364, "dev_perplexity": 15.829212508989071}
+{"committed_targets": 50000000, "dev_loss_nats": 2.735034342855215, "dev_perplexity": 15.410272659604516}

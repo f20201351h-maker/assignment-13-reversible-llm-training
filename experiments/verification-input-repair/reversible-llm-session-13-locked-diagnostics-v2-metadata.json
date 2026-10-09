@@ -1,0 +1,24 @@
+{
+  "id": 136109135,
+  "ref": "KAGGLE_USER/reversible-llm-session-13-locked-diagnostics",
+  "title": "Reversible LLM Session 13 locked diagnostics",
+  "author": "KAGGLE_USER",
+  "slug": "reversible-llm-session-13-locked-diagnostics",
+  "lastRunTime": "2026-09-24T20:24:26.086Z",
+  "language": "python",
+  "kernelType": "script",
+  "isPrivate": true,
+  "enableGpu": true,
+  "enableInternet": false,
+  "categoryIds": [
+    "gpu"
+  ],
+  "datasetDataSources": [
+    "KAGGLE_USER/revllm-session13-locked-checkpoints",
+    "KAGGLE_USER/revllm-session13-assets"
+  ],
+  "enableTpu": false,
+  "currentVersionNumber": 2,
+  "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+  "machineShape": "NvidiaTeslaT4"
+}

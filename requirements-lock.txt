@@ -1,0 +1,12 @@
+# Local data preparation and correctness environment, Windows Python 3.14.
+# Kaggle GPU execution uses its recorded PyTorch 2.10.0+cu128 runtime; see each run manifest.
+torch==2.14.0+cpu
+numpy==2.4.4
+datasets==5.0.1
+huggingface_hub==1.18.0
+tokenizers==0.23.1
+pyarrow==25.0.1
+pytest==9.0.3
+nbformat==5.11.1
+nbclient==0.11.0
+matplotlib==3.11.2

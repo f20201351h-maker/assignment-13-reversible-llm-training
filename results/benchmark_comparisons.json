@@ -1,0 +1,199 @@
+{
+  "comparisons": [
+    {
+      "contrast": "reconstruction",
+      "repetition": 0,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "D",
+      "to_condition": "B",
+      "throughput_ratio": 0.6518991212962378
+    },
+    {
+      "contrast": "physical_batch",
+      "repetition": 0,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "E",
+      "to_condition": "C",
+      "throughput_ratio": 0.9879309390438873
+    },
+    {
+      "contrast": "capacity_combined",
+      "repetition": 0,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "B",
+      "to_condition": "C",
+      "throughput_ratio": 0.9943066651068144
+    },
+    {
+      "contrast": "checkpointing",
+      "repetition": 0,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "A",
+      "to_condition": "checkpointed-B0",
+      "throughput_ratio": 0.800889139627958
+    },
+    {
+      "contrast": "reconstruction",
+      "repetition": 1,
+      "assigned_gpu": 1,
+      "gpu_uuid": "a24b046b-6864-e238-4fb2-e44724c5fd96",
+      "from_condition": "D",
+      "to_condition": "B",
+      "throughput_ratio": 0.6341345749956074
+    },
+    {
+      "contrast": "physical_batch",
+      "repetition": 1,
+      "assigned_gpu": 1,
+      "gpu_uuid": "a24b046b-6864-e238-4fb2-e44724c5fd96",
+      "from_condition": "E",
+      "to_condition": "C",
+      "throughput_ratio": 0.9888683921422211
+    },
+    {
+      "contrast": "capacity_combined",
+      "repetition": 1,
+      "assigned_gpu": 1,
+      "gpu_uuid": "a24b046b-6864-e238-4fb2-e44724c5fd96",
+      "from_condition": "B",
+      "to_condition": "C",
+      "throughput_ratio": 0.9688007876240634
+    },
+    {
+      "contrast": "checkpointing",
+      "repetition": 1,
+      "assigned_gpu": 1,
+      "gpu_uuid": "a24b046b-6864-e238-4fb2-e44724c5fd96",
+      "from_condition": "A",
+      "to_condition": "checkpointed-B0",
+      "throughput_ratio": 0.8485307182901346
+    },
+    {
+      "contrast": "reconstruction",
+      "repetition": 2,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "D",
+      "to_condition": "B",
+      "throughput_ratio": 0.6688713628095548
+    },
+    {
+      "contrast": "physical_batch",
+      "repetition": 2,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "E",
+      "to_condition": "C",
+      "throughput_ratio": 0.9902040587364325
+    },
+    {
+      "contrast": "capacity_combined",
+      "repetition": 2,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "B",
+      "to_condition": "C",
+      "throughput_ratio": 1.0000315745752617
+    },
+    {
+      "contrast": "checkpointing",
+      "repetition": 2,
+      "assigned_gpu": 0,
+      "gpu_uuid": "a528b308-5558-5293-e606-6ee813a5e729",
+      "from_condition": "A",
+      "to_condition": "checkpointed-B0",
+      "throughput_ratio": 0.8356797993791559
+    }
+  ],
+  "inputs": [
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/A-rep0.json",
+      "sha256": "f3b94558dac0fe529d424c50502f8e5d5bb2f49ecc8bd4f2db0b646fba435093"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/B-rep0.json",
+      "sha256": "6f327596ff365231e7419527e5949af5ae5d2d8a8f793fe5d591b9406e4fc6e6"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/C-rep0.json",
+      "sha256": "9e2002522bef203d27fd78968b4d3c52620551da416e56c0413c1204cdfd60d1"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/D-rep0.json",
+      "sha256": "c8a03aabed5d70ecc202370e146b7587a249f560aaf575eb6295afc15315ada8"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/E-rep0.json",
+      "sha256": "1fe95bfd50a371091110ea510eea6e3d9ffca9d76e127369374b596e53e87ba0"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep0.json",
+      "sha256": "a5a0c00519be8dccc5b9d80d1f3eb8346344009682c356ebda110037f3c3b76e"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep0.json",
+      "sha256": "81ba2c6a3471052a21318d79c7eab05b1aac3d7991ec9ea0e7a1b957d63fcecd"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/A-rep1.json",
+      "sha256": "516106d62b7056ea74693f38ef5782d33c87ee94b555007b322df74aafdf19fd"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/B-rep1.json",
+      "sha256": "b85b51016ee71ed2c9905305e52ab1e88a7a02ecef4f42a5ffb5b0cc1cb0110c"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/C-rep1.json",
+      "sha256": "c5b25c4e6a42aa27199c77a75fba3cb8c896495dfacc3bc7a3bc861ac167989b"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/D-rep1.json",
+      "sha256": "96104427bfdd8e013aca6cdffffdbf190294497927b52ee3ce1c5b0861d0788b"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/E-rep1.json",
+      "sha256": "8c907b3b30de468849e3dfc4ef7d9af73e77b9931c353ed2531c7a3083a4c1ce"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep1.json",
+      "sha256": "d339582e2c8c28597965786424b96e9de6a95c8070e3f2171bf90bb5146c0cc3"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep1.json",
+      "sha256": "dc18f7dc79241dac75424c94d68929485856023215b6737c00ef68da397182c5"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/A-rep2.json",
+      "sha256": "25ef7bed7a5be554d889e0e246f6cf46c6ca38334c4d37027889e80b50f79c83"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/B-rep2.json",
+      "sha256": "c47c937064b55c5bc3c7bbdfff5f43629b4d59d1b706b8eeceb307230aafc6f0"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/C-rep2.json",
+      "sha256": "0f50e0f89ef32d06577628bbf81e60b6a00ba4f9887c2ea1b683cdaa8dd3289d"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/D-rep2.json",
+      "sha256": "c4360d672d21ea1e09d56a6a7b94e8e44c1449d468b138db663201868bf67f53"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/E-rep2.json",
+      "sha256": "23d96dae5b4fb67d1ad87d9d230675763b4c8fa6ef8fcacebc4ae7c95227990b"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-B0-rep2.json",
+      "sha256": "172cc6aed60abb1426c049905745bbd5bbad071a4598cdc936144a3106a88389"
+    },
+    {
+      "path": "experiments/kaggle-benchmark-v2/benchmark/checkpointed-max-rep2.json",
+      "sha256": "ded3385e05ae37c36cd90ebfed3bb87eef1d2f07090f62da7b0ac1f7511fb5ea"
+    }
+  ],
+  "limitation": "Same GPU assignment and repetition index; separate sequential trials, not simultaneous pairs. GPU identity and repetition order are confounded."
+}

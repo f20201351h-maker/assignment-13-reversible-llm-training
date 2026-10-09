@@ -1,0 +1,58 @@
+[
+  {
+    "run_id": "A-3141",
+    "status": "NOT_REVERSIBLE"
+  },
+  {
+    "run_id": "B-3141",
+    "integrator": "coupled_euler",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 50000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 1.1394223520255764e-06,
+    "reconstruction": {
+      "relative_reconstruction_error": 6.967432142346297e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "C-3141",
+    "integrator": "coupled_euler",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 50000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 8.670919555697765e-07,
+    "reconstruction": {
+      "relative_reconstruction_error": 6.354498083283033e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "F-midpoint-1337",
+    "integrator": "midpoint",
+    "step_size": 0.5,
+    "blend": 1.0,
+    "committed_targets_at_probe": 50000000,
+    "loss_difference": 0.0,
+    "global_relative_gradient_error_fp32": 7.092631335581245e-07,
+    "reconstruction": {
+      "relative_reconstruction_error": 7.028256732155569e-08,
+      "threshold": 1e-05,
+      "status": "PASS"
+    },
+    "threshold": 0.0001,
+    "status": "PASS"
+  },
+  {
+    "run_id": "G-checkpointed-1337",
+    "status": "NOT_REVERSIBLE"
+  }
+]

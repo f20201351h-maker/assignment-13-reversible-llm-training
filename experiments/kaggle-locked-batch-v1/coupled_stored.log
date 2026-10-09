@@ -1,0 +1,21 @@
+PASS 1
+PASS 2
+PASS 4
+PASS 8
+PASS 16
+PASS 32
+PASS 64
+OOM 128
+PASS 96
+OOM 112
+PASS 104
+PASS 108
+PASS 110
+OOM 111
+{
+  "status": "VALIDATED",
+  "largest_stable_batch": 110,
+  "smallest_observed_oom_batch": 111,
+  "boundary_type": "observed_oom",
+  "trials_log": "/kaggle/working/batch-search-coupled_stored/search/trials.jsonl"
+}

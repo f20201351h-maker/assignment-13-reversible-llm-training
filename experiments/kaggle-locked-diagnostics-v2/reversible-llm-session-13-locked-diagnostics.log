@@ -1,0 +1,17 @@
+[{"stream_name":"stderr","time":14.191359637,"data":"/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stderr","time":14.191422171,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":19.461051829,"data":"A-L-1337: NOT_REVERSIBLE\n"}
+,{"stream_name":"stdout","time":22.632167074,"data":"A-L-2027: NOT_REVERSIBLE\n"}
+,{"stream_name":"stdout","time":27.2581667,"data":"B-L-1337: PASS\n"}
+,{"stream_name":"stdout","time":31.0890723,"data":"B-L-2027: PASS\n"}
+,{"stream_name":"stdout","time":35.074692635,"data":"C-L191-1337: PASS\n"}
+,{"stream_name":"stdout","time":39.051333116,"data":"C-L191-2027: PASS\n"}
+,{"stream_name":"stdout","time":42.822493605,"data":"D-L-1337: PASS\n"}
+,{"stream_name":"stdout","time":46.719414549,"data":"E-L191-1337: PASS\n"}
+,{"stream_name":"stderr","time":51.580386205,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":51.580441946,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":51.886822833,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":51.886849429,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":52.547922105,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":53.892271537,"data":"[NbConvertApp] Writing 288042 bytes to __results__.html\n"}
+]

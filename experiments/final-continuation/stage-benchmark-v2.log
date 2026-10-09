@@ -1,0 +1,12 @@
+{
+  "stage": ".\\staging\\kaggle-benchmark",
+  "conditions": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "checkpointed-B0",
+    "checkpointed-max"
+  ]
+}

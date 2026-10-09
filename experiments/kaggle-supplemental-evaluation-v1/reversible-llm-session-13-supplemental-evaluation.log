@@ -1,0 +1,27 @@
+[{"stream_name":"stdout","time":23.446261413,"data":"A-3141 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":23.446340525,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":23.446345008,"data":"{\"run_id\": \"A-3141\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":23.446347856,"data":"\n"}
+,{"stream_name":"stdout","time":23.544222217,"data":"B-3141 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":23.544248392,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":23.544252718,"data":"{\"run_id\": \"B-3141\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":23.544256524,"data":"\n"}
+,{"stream_name":"stdout","time":36.553314914,"data":"C-3141 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":36.553358491,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":36.553363084,"data":"{\"run_id\": \"C-3141\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":36.553367004,"data":"\n"}
+,{"stream_name":"stdout","time":37.008710993,"data":"F-midpoint-1337 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":37.00874267,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":37.008749108,"data":"{\"run_id\": \"F-midpoint-1337\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":37.008761239,"data":"\n"}
+,{"stream_name":"stdout","time":49.495293317,"data":"G-checkpointed-1337 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":49.495331777,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":49.495337597,"data":"{\"run_id\": \"G-checkpointed-1337\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":49.495347758,"data":"\n"}
+,{"stream_name":"stderr","time":51.457031796,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":51.457078385,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":51.679565769999996,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":51.679590783,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":52.313941405,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":53.474413687,"data":"[NbConvertApp] Writing 289524 bytes to __results__.html\n"}
+]

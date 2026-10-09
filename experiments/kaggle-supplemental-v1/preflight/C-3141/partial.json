@@ -1,0 +1,8 @@
+{
+  "run_id": "preflight-C-3141",
+  "status": "INCOMPLETE",
+  "committed_targets": 98304,
+  "attempted_targets": 98304,
+  "updates": 1,
+  "checkpoint_sha256": "99d0dc8aba2eb05a31a3d74cb704228c1c93c3771ffff119e9233f5b9a5c3e75"
+}

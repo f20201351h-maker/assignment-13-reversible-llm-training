@@ -1,0 +1,8 @@
+{
+  "run_id": "preflight-D-1337",
+  "status": "INCOMPLETE",
+  "committed_targets": 56320,
+  "attempted_targets": 56320,
+  "updates": 1,
+  "checkpoint_sha256": "2091c5e905af7c005d548ac09215020ef5c5211bc4148cf8c56859a8cab798fd"
+}

@@ -1,0 +1,14 @@
+{
+  "run_id": "example-unexecuted",
+  "model": {
+    "integrator": "conventional",
+    "backward_mode": "stored"
+  },
+  "data_dir": "data",
+  "out_dir": "experiments/example-unexecuted",
+  "physical_batch": 4,
+  "effective_batch": 4,
+  "target_tokens": 50000000,
+  "seed": 1337,
+  "use_amp": true
+}

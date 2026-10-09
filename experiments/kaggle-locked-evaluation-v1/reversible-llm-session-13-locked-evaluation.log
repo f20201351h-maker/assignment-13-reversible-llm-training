@@ -1,0 +1,60 @@
+[{"stream_name":"stdout","time":7.283426948,"data":"A-L-1337 evaluation exit=1; tail=Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":7.283498836,"data":"  File \"/kaggle/src/script.py\", line 69, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":7.283505371,"data":"    main()\n"}
+,{"stream_name":"stdout","time":7.283509469,"data":"  File \"/kaggle/src/script.py\", line 44, in main\n"}
+,{"stream_name":"stdout","time":7.283513536,"data":"    one(sys.argv[2], int(sys.argv[3]))\n"}
+,{"stream_name":"stdout","time":7.28351749,"data":"  File \"/kaggle/src/script.py\", line 22, in one\n"}
+,{"stream_name":"stdout","time":7.283521575,"data":"    raise RuntimeError(f'Expected one saved checkpoint for {name}, found {checkpoints}')\n"}
+,{"stream_name":"stdout","time":7.283525921,"data":"RuntimeError: Expected one saved checkpoint for A-L-1337, found []\n"}
+,{"stream_name":"stdout","time":7.283529991,"data":"\n"}
+,{"stream_name":"stdout","time":7.301744541,"data":"B-L-1337 evaluation exit=1; tail=Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":7.301770088,"data":"  File \"/kaggle/src/script.py\", line 69, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":7.301774697,"data":"    main()\n"}
+,{"stream_name":"stdout","time":7.3017781809999995,"data":"  File \"/kaggle/src/script.py\", line 44, in main\n"}
+,{"stream_name":"stdout","time":7.301781942,"data":"    one(sys.argv[2], int(sys.argv[3]))\n"}
+,{"stream_name":"stdout","time":7.301785937,"data":"  File \"/kaggle/src/script.py\", line 22, in one\n"}
+,{"stream_name":"stdout","time":7.301789697,"data":"    raise RuntimeError(f'Expected one saved checkpoint for {name}, found {checkpoints}')\n"}
+,{"stream_name":"stdout","time":7.301793331,"data":"RuntimeError: Expected one saved checkpoint for B-L-1337, found []\n"}
+,{"stream_name":"stdout","time":7.301796866,"data":"\n"}
+,{"stream_name":"stdout","time":9.455772042,"data":"D-L-1337 evaluation exit=1; tail=Traceback (most recent call last):\n"}
+,{"stream_name":"stdout","time":9.455814028,"data":"  File \"/kaggle/src/script.py\", line 69, in \u003cmodule\u003e\n"}
+,{"stream_name":"stdout","time":9.455833545,"data":"    main()\n"}
+,{"stream_name":"stdout","time":9.455839383,"data":"  File \"/kaggle/src/script.py\", line 44, in main\n"}
+,{"stream_name":"stdout","time":9.455844872,"data":"    one(sys.argv[2], int(sys.argv[3]))\n"}
+,{"stream_name":"stdout","time":9.455850565,"data":"  File \"/kaggle/src/script.py\", line 22, in one\n"}
+,{"stream_name":"stdout","time":9.455855144,"data":"    raise RuntimeError(f'Expected one saved checkpoint for {name}, found {checkpoints}')\n"}
+,{"stream_name":"stdout","time":9.455859688,"data":"RuntimeError: Expected one saved checkpoint for D-L-1337, found []\n"}
+,{"stream_name":"stdout","time":9.45586414,"data":"\n"}
+,{"stream_name":"stdout","time":27.080891918,"data":"C-L191-1337 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":27.080931647,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":27.080949601,"data":"{\"run_id\": \"C-L191-1337\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":27.080955944,"data":"\n"}
+,{"stream_name":"stdout","time":41.903540876,"data":"E-L191-1337 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":41.90360561,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":41.903612712,"data":"{\"run_id\": \"E-L191-1337\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":41.903620322,"data":"\n"}
+,{"stream_name":"stdout","time":42.244535563,"data":"A-L-2027 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":42.244568136,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":42.244572478,"data":"{\"run_id\": \"A-L-2027\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":42.244576786,"data":"\n"}
+,{"stream_name":"stdout","time":57.543982269,"data":"B-L-2027 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":57.54402343,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":57.5440294,"data":"{\"run_id\": \"B-L-2027\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":57.544035731,"data":"\n"}
+,{"stream_name":"stdout","time":57.704802409,"data":"C-L191-2027 evaluation exit=0; tail=/usr/local/lib/python3.12/dist-packages/torch/profiler/profiler.py:217: UserWarning: Warning: Profiler clears events at the end of each cycle.Only events from the current cycle will be reported.To keep events across cycles, set acc_events=True.\n"}
+,{"stream_name":"stdout","time":57.7048391,"data":"  _warn_once(\n"}
+,{"stream_name":"stdout","time":57.704845456,"data":"{\"run_id\": \"C-L191-2027\", \"holdout_recheck_absolute_difference\": 0.0}\n"}
+,{"stream_name":"stdout","time":57.704850416,"data":"\n"}
+,{"stream_name":"stderr","time":57.704870926,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":57.704899844,"data":"  File \"/kaggle/src/script.py\", line 69, in \u003cmodule\u003e\n"}
+,{"stream_name":"stderr","time":57.705006564,"data":"    main()\n"}
+,{"stream_name":"stderr","time":57.705025848,"data":"  File \"/kaggle/src/script.py\", line 66, in main\n"}
+,{"stream_name":"stderr","time":57.705190466,"data":"    raise RuntimeError(f'Checkpoint reevaluation failures: {failures}')\n"}
+,{"stream_name":"stderr","time":57.705212994,"data":"RuntimeError: Checkpoint reevaluation failures: ['A-L-1337', 'B-L-1337', 'D-L-1337']\n"}
+,{"stream_name":"stderr","time":59.73736001,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":59.737396326,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":59.977846502,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":59.977873301,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":60.581730928,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":61.802418218,"data":"[NbConvertApp] Writing 289722 bytes to __results__.html\n"}
+]

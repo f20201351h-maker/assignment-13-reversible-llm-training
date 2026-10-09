@@ -1,0 +1,29 @@
+{
+  "observed_unix": 1790521297.606507,
+  "metadata": {
+    "id": 136109120,
+    "ref": "KAGGLE_USER/reversible-llm-session-13-locked-evaluation",
+    "title": "Reversible LLM Session 13 locked evaluation",
+    "author": "KAGGLE_USER",
+    "slug": "reversible-llm-session-13-locked-evaluation",
+    "lastRunTime": "2026-09-24T15:01:36.497Z",
+    "language": "python",
+    "kernelType": "script",
+    "isPrivate": true,
+    "enableGpu": true,
+    "enableInternet": false,
+    "datasetDataSources": [
+      "KAGGLE_USER/revllm-session13-assets"
+    ],
+    "kernelDataSources": [
+      "KAGGLE_USER/reversible-llm-session-13-locked-capacity-repair"
+    ],
+    "enableTpu": false,
+    "currentVersionNumber": 1,
+    "dockerImage": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+    "machineShape": "NvidiaTeslaT4"
+  },
+  "status": {
+    "status": "ERROR"
+  }
+}

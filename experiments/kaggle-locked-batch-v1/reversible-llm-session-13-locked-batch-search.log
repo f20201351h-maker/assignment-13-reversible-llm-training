@@ -1,0 +1,103 @@
+[{"stream_name":"stdout","time":1.930521803,"data":"Started conventional on physical GPU 0\n"}
+,{"stream_name":"stdout","time":1.931163142,"data":"Started checkpointed on physical GPU 1\n"}
+,{"stream_name":"stdout","time":371.732932907,"data":"conventional exit=0: PASS 1\n"}
+,{"stream_name":"stdout","time":371.7329867,"data":"PASS 2\n"}
+,{"stream_name":"stdout","time":371.732992568,"data":"PASS 4\n"}
+,{"stream_name":"stdout","time":371.732997215,"data":"PASS 8\n"}
+,{"stream_name":"stdout","time":371.733001575,"data":"PASS 16\n"}
+,{"stream_name":"stdout","time":371.733005846,"data":"PASS 32\n"}
+,{"stream_name":"stdout","time":371.733009999,"data":"PASS 64\n"}
+,{"stream_name":"stdout","time":371.733014161,"data":"OOM 128\n"}
+,{"stream_name":"stdout","time":371.733018383,"data":"PASS 96\n"}
+,{"stream_name":"stdout","time":371.733022534,"data":"OOM 112\n"}
+,{"stream_name":"stdout","time":371.733026753,"data":"PASS 104\n"}
+,{"stream_name":"stdout","time":371.733031054,"data":"PASS 108\n"}
+,{"stream_name":"stdout","time":371.73303525,"data":"PASS 110\n"}
+,{"stream_name":"stdout","time":371.733039389,"data":"OOM 111\n"}
+,{"stream_name":"stdout","time":371.733043563,"data":"{\n"}
+,{"stream_name":"stdout","time":371.733047716,"data":"  \"status\": \"VALIDATED\",\n"}
+,{"stream_name":"stdout","time":371.733052221,"data":"  \"largest_stable_batch\": 110,\n"}
+,{"stream_name":"stdout","time":371.733056589,"data":"  \"smallest_observed_oom_batch\": 111,\n"}
+,{"stream_name":"stdout","time":371.733060945,"data":"  \"boundary_type\": \"observed_oom\",\n"}
+,{"stream_name":"stdout","time":371.733065482,"data":"  \"trials_log\": \"/kaggle/working/batch-search-conventional/search/trials.jsonl\"\n"}
+,{"stream_name":"stdout","time":371.733070076,"data":"}\n"}
+,{"stream_name":"stdout","time":371.733074222,"data":"\n"}
+,{"stream_name":"stdout","time":656.045456415,"data":"checkpointed exit=0: PASS 1\n"}
+,{"stream_name":"stdout","time":656.045503106,"data":"PASS 2\n"}
+,{"stream_name":"stdout","time":656.045508813,"data":"PASS 4\n"}
+,{"stream_name":"stdout","time":656.045513181,"data":"PASS 8\n"}
+,{"stream_name":"stdout","time":656.045523698,"data":"PASS 16\n"}
+,{"stream_name":"stdout","time":656.045527306,"data":"PASS 32\n"}
+,{"stream_name":"stdout","time":656.045530258,"data":"PASS 64\n"}
+,{"stream_name":"stdout","time":656.045533163,"data":"PASS 128\n"}
+,{"stream_name":"stdout","time":656.045536219,"data":"OOM 256\n"}
+,{"stream_name":"stdout","time":656.045539098,"data":"OOM 192\n"}
+,{"stream_name":"stdout","time":656.045542057,"data":"PASS 160\n"}
+,{"stream_name":"stdout","time":656.045544956,"data":"PASS 176\n"}
+,{"stream_name":"stdout","time":656.045547898,"data":"OOM 184\n"}
+,{"stream_name":"stdout","time":656.04555073,"data":"PASS 180\n"}
+,{"stream_name":"stdout","time":656.045554177,"data":"PASS 182\n"}
+,{"stream_name":"stdout","time":656.04557059,"data":"OOM 183\n"}
+,{"stream_name":"stdout","time":656.04557554,"data":"{\n"}
+,{"stream_name":"stdout","time":656.045580433,"data":"  \"status\": \"VALIDATED\",\n"}
+,{"stream_name":"stdout","time":656.045585575,"data":"  \"largest_stable_batch\": 182,\n"}
+,{"stream_name":"stdout","time":656.045596036,"data":"  \"smallest_observed_oom_batch\": 183,\n"}
+,{"stream_name":"stdout","time":656.045600455,"data":"  \"boundary_type\": \"observed_oom\",\n"}
+,{"stream_name":"stdout","time":656.045620856,"data":"  \"trials_log\": \"/kaggle/working/batch-search-checkpointed/search/trials.jsonl\"\n"}
+,{"stream_name":"stdout","time":656.045629586,"data":"}\n"}
+,{"stream_name":"stdout","time":656.04564451,"data":"\n"}
+,{"stream_name":"stdout","time":656.04616081,"data":"Started coupled_stored on physical GPU 0\n"}
+,{"stream_name":"stdout","time":656.046860552,"data":"Started coupled_reconstructed on physical GPU 1\n"}
+,{"stream_name":"stdout","time":991.930522695,"data":"coupled_stored exit=0: PASS 1\n"}
+,{"stream_name":"stdout","time":991.930564028,"data":"PASS 2\n"}
+,{"stream_name":"stdout","time":991.930569895,"data":"PASS 4\n"}
+,{"stream_name":"stdout","time":991.930574695,"data":"PASS 8\n"}
+,{"stream_name":"stdout","time":991.930579238,"data":"PASS 16\n"}
+,{"stream_name":"stdout","time":991.930583739,"data":"PASS 32\n"}
+,{"stream_name":"stdout","time":991.930588203,"data":"PASS 64\n"}
+,{"stream_name":"stdout","time":991.93059302,"data":"OOM 128\n"}
+,{"stream_name":"stdout","time":991.930597662,"data":"PASS 96\n"}
+,{"stream_name":"stdout","time":991.93061847,"data":"OOM 112\n"}
+,{"stream_name":"stdout","time":991.93062568,"data":"PASS 104\n"}
+,{"stream_name":"stdout","time":991.930630268,"data":"PASS 108\n"}
+,{"stream_name":"stdout","time":991.930634763,"data":"PASS 110\n"}
+,{"stream_name":"stdout","time":991.930639207,"data":"OOM 111\n"}
+,{"stream_name":"stdout","time":991.930643684,"data":"{\n"}
+,{"stream_name":"stdout","time":991.93064897,"data":"  \"status\": \"VALIDATED\",\n"}
+,{"stream_name":"stdout","time":991.930653996,"data":"  \"largest_stable_batch\": 110,\n"}
+,{"stream_name":"stdout","time":991.930658654,"data":"  \"smallest_observed_oom_batch\": 111,\n"}
+,{"stream_name":"stdout","time":991.93066333,"data":"  \"boundary_type\": \"observed_oom\",\n"}
+,{"stream_name":"stdout","time":991.930668168,"data":"  \"trials_log\": \"/kaggle/working/batch-search-coupled_stored/search/trials.jsonl\"\n"}
+,{"stream_name":"stdout","time":991.930673195,"data":"}\n"}
+,{"stream_name":"stdout","time":991.930677662,"data":"\n"}
+,{"stream_name":"stdout","time":1541.858463762,"data":"coupled_reconstructed exit=0: PASS 1\n"}
+,{"stream_name":"stdout","time":1541.858497613,"data":"PASS 2\n"}
+,{"stream_name":"stdout","time":1541.858501955,"data":"PASS 4\n"}
+,{"stream_name":"stdout","time":1541.858505265,"data":"PASS 8\n"}
+,{"stream_name":"stdout","time":1541.858508422,"data":"PASS 16\n"}
+,{"stream_name":"stdout","time":1541.858511503,"data":"PASS 32\n"}
+,{"stream_name":"stdout","time":1541.858514779,"data":"PASS 64\n"}
+,{"stream_name":"stdout","time":1541.858518065,"data":"PASS 128\n"}
+,{"stream_name":"stdout","time":1541.858521258,"data":"OOM 256\n"}
+,{"stream_name":"stdout","time":1541.858524416,"data":"OOM 192\n"}
+,{"stream_name":"stdout","time":1541.858527545,"data":"PASS 160\n"}
+,{"stream_name":"stdout","time":1541.858530608,"data":"PASS 176\n"}
+,{"stream_name":"stdout","time":1541.858533706,"data":"PASS 184\n"}
+,{"stream_name":"stdout","time":1541.858536736,"data":"PASS 188\n"}
+,{"stream_name":"stdout","time":1541.858539741,"data":"PASS 190\n"}
+,{"stream_name":"stdout","time":1541.858542864,"data":"PASS 191\n"}
+,{"stream_name":"stdout","time":1541.858545979,"data":"{\n"}
+,{"stream_name":"stdout","time":1541.858549057,"data":"  \"status\": \"VALIDATED\",\n"}
+,{"stream_name":"stdout","time":1541.858552397,"data":"  \"largest_stable_batch\": 191,\n"}
+,{"stream_name":"stdout","time":1541.858555562,"data":"  \"smallest_observed_oom_batch\": 192,\n"}
+,{"stream_name":"stdout","time":1541.858558676,"data":"  \"boundary_type\": \"observed_oom\",\n"}
+,{"stream_name":"stdout","time":1541.858561941,"data":"  \"trials_log\": \"/kaggle/working/batch-search-coupled_reconstructed/search/trials.jsonl\"\n"}
+,{"stream_name":"stdout","time":1541.858579446,"data":"}\n"}
+,{"stream_name":"stdout","time":1541.858581959,"data":"\n"}
+,{"stream_name":"stderr","time":1544.679517069,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1544.679589495,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1545.19743715,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1545.197468017,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1546.071181821,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1547.834086119,"data":"[NbConvertApp] Writing 304543 bytes to __results__.html\n"}
+]

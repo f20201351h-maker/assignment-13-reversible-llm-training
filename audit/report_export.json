@@ -1,0 +1,13 @@
+{
+  "source_sha256": "ee9b6dd6e4fd577558c4fe08600619ed4407b5e37be7fda2ceea80a8c5b65617",
+  "generator_sha256": "787e733439e6a374539b135f75dfe763d3dc837029a58674274465b42897ea86",
+  "versions": {
+    "Markdown": "3.10.2",
+    "reportlab": "4.5.1",
+    "matplotlib": "3.11.2"
+  },
+  "outputs": {
+    "REPORT.html": "2784ad6ca7dc73c217646604e1ca2bb7313a9784a42b577b1ad19066365d46ea",
+    "REPORT.pdf": "aa135be5d8bfa96d601496500c3737c0e02f27d8dd31c997f99383cddce06847"
+  }
+}

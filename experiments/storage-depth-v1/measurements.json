@@ -1,0 +1,242 @@
+[
+  {
+    "integrator": "midpoint",
+    "depth": 2,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 204544,
+    "saved_unique_storages": 27,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 2,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 18432,
+    "saved_unique_storages": 3,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 4,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 402944,
+    "saved_unique_storages": 53,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 4,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 18432,
+    "saved_unique_storages": 3,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 9,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 898944,
+    "saved_unique_storages": 118,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 9,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 18432,
+    "saved_unique_storages": 3,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 18,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 1791744,
+    "saved_unique_storages": 235,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "midpoint",
+    "depth": 18,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 18432,
+    "saved_unique_storages": 3,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 2,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 204544,
+    "saved_unique_storages": 27,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 2,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 24576,
+    "saved_unique_storages": 4,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 4,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 402944,
+    "saved_unique_storages": 53,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 4,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 24576,
+    "saved_unique_storages": 4,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 9,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 898944,
+    "saved_unique_storages": 118,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 9,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 24576,
+    "saved_unique_storages": 4,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 18,
+    "backward_mode": "stored",
+    "saved_unique_storage_bytes": 1791744,
+    "saved_unique_storages": 235,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  },
+  {
+    "integrator": "coupled_euler",
+    "depth": 18,
+    "backward_mode": "reconstructed",
+    "saved_unique_storage_bytes": 24576,
+    "saved_unique_storages": 4,
+    "dtype": "float32",
+    "device": "cpu",
+    "input_shape": [
+      2,
+      16,
+      48
+    ],
+    "scope": "stack forward plus squared-output reduction; unique retained storage, parameter aliases excluded; not CUDA peak memory"
+  }
+]

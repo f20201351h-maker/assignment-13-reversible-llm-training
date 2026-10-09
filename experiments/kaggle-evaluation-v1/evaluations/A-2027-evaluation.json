@@ -1,0 +1,29 @@
+{
+  "run_id": "A-2027",
+  "checkpoint_sha256": "353fa9300c448b31abdc0565cbfd5e4bf2fd748ee938b77a2215fbf9b91a9a22",
+  "data_sha256": "aee2756d5158326093413eef3bcdebcf5ca053662025faf7dca026c2814f35bb",
+  "parameter_count": 19969152,
+  "committed_targets_at_checkpoint": 50000000,
+  "device": "cuda",
+  "amp_fp16": true,
+  "evaluation": {
+    "dev": {
+      "loss_nats": 2.842882949858904,
+      "perplexity": 17.165180627374216,
+      "targets": 262144
+    },
+    "holdout": {
+      "loss_nats": 2.8502183413085938,
+      "perplexity": 17.291556889586968,
+      "targets": 1000000
+    },
+    "train_subset": {
+      "loss_nats": 3.0386719927191734,
+      "perplexity": 20.8774993459899,
+      "targets": 131072
+    }
+  },
+  "assigned_physical_gpu": 1,
+  "original_holdout_loss_nats": 2.8502183413085938,
+  "holdout_recheck_absolute_difference": 0.0
+}

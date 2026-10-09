@@ -1,0 +1,192 @@
+{
+  "campaign_config": "configs/locked_campaign.json",
+  "campaign_config_sha256": "507d9d2e705b02734e7f484b613ae9f5613967a71af385410687891fc80f3d44",
+  "dataset_id": "KAGGLE_USER/revllm-session13-locked-checkpoints",
+  "run_count": 8,
+  "runs": [
+    {
+      "checkpoint_sha256": "6cf4bd09c3fbae01ca1206b8e8b518491f4699ed0cbfffbf4af90298a619bc86",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/A-L-1337/final.json",
+          "sha256": "df66a196b508cb2905bf4c186a473a9a7147d878a068f18fee9b9d5fddca0591",
+          "size_bytes": 2060
+        },
+        "latest.pt": {
+          "archive_path": "runs/A-L-1337/latest.pt",
+          "sha256": "6cf4bd09c3fbae01ca1206b8e8b518491f4699ed0cbfffbf4af90298a619bc86",
+          "size_bytes": 239716811
+        },
+        "run_config.json": {
+          "archive_path": "runs/A-L-1337/run_config.json",
+          "sha256": "a1a0881929c5b35c7e63797294ce14e086f03139b252265f46aefe5009f4becd",
+          "size_bytes": 851
+        }
+      },
+      "run_id": "A-L-1337",
+      "source_run_directory": "experiments/kaggle-locked-v1/runs/A-L-1337"
+    },
+    {
+      "checkpoint_sha256": "3b4a94e03b520eb48ca421d023ef852c4e3df6d45954c57b7864e82af349620d",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/B-L-1337/final.json",
+          "sha256": "f193211de0defcc5d718d1c5b22c3e9192f21b09fbc0d1589775062ff6a1f2d5",
+          "size_bytes": 2064
+        },
+        "latest.pt": {
+          "archive_path": "runs/B-L-1337/latest.pt",
+          "sha256": "3b4a94e03b520eb48ca421d023ef852c4e3df6d45954c57b7864e82af349620d",
+          "size_bytes": 239717707
+        },
+        "run_config.json": {
+          "archive_path": "runs/B-L-1337/run_config.json",
+          "sha256": "559957b2ccbbc993791ce2abf9d5d59dcea980489e43bf19af9c1344713395f6",
+          "size_bytes": 859
+        }
+      },
+      "run_id": "B-L-1337",
+      "source_run_directory": "experiments/kaggle-locked-v1/runs/B-L-1337"
+    },
+    {
+      "checkpoint_sha256": "a8e6f1a3edd1f52ae56237846b1e29ef72200d989c6acac2a29b024d0c37ccff",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/D-L-1337/final.json",
+          "sha256": "9f6e97ad20c375b91cfa45aa09e84305bd3dd04cf575e44ded8e33ba561c9e61",
+          "size_bytes": 2063
+        },
+        "latest.pt": {
+          "archive_path": "runs/D-L-1337/latest.pt",
+          "sha256": "a8e6f1a3edd1f52ae56237846b1e29ef72200d989c6acac2a29b024d0c37ccff",
+          "size_bytes": 239717707
+        },
+        "run_config.json": {
+          "archive_path": "runs/D-L-1337/run_config.json",
+          "sha256": "e6840b2477e4ce4a31c1218cdd17d0e712efb7fddd4dec7901ad0fdf862946fc",
+          "size_bytes": 852
+        }
+      },
+      "run_id": "D-L-1337",
+      "source_run_directory": "experiments/kaggle-locked-v1/runs/D-L-1337"
+    },
+    {
+      "checkpoint_sha256": "1e7b630b0a570a488892d2b78e1c479aa5666aa3950ed1de95f38a60ff4b4cd2",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/C-L191-1337/final.json",
+          "sha256": "471a9c70e8744074934c15b26fde4a943fab9adb1cb10ac5dda23a2e9fe6d27b",
+          "size_bytes": 2072
+        },
+        "latest.pt": {
+          "archive_path": "runs/C-L191-1337/latest.pt",
+          "sha256": "1e7b630b0a570a488892d2b78e1c479aa5666aa3950ed1de95f38a60ff4b4cd2",
+          "size_bytes": 239717707
+        },
+        "run_config.json": {
+          "archive_path": "runs/C-L191-1337/run_config.json",
+          "sha256": "ee10a56e861ee19bdf61a1215d0f243dcabf7458f53596a6e0abea9b7fda3815",
+          "size_bytes": 865
+        }
+      },
+      "run_id": "C-L191-1337",
+      "source_run_directory": "experiments/kaggle-locked-repair-v1/runs/C-L191-1337"
+    },
+    {
+      "checkpoint_sha256": "9691e82698e6e50bafd96341e016b843505d5742fa05616cd2aae2f41ca38f58",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/E-L191-1337/final.json",
+          "sha256": "e739ce15a0ca6d222a99b8bf547e05d8a9a118b57c4500b57ca344ff2c231731",
+          "size_bytes": 2062
+        },
+        "latest.pt": {
+          "archive_path": "runs/E-L191-1337/latest.pt",
+          "sha256": "9691e82698e6e50bafd96341e016b843505d5742fa05616cd2aae2f41ca38f58",
+          "size_bytes": 239717707
+        },
+        "run_config.json": {
+          "archive_path": "runs/E-L191-1337/run_config.json",
+          "sha256": "79951018967d5442ed1c82ace5bcf2eefdb62d965aa6714b5280f0704ad66cca",
+          "size_bytes": 865
+        }
+      },
+      "run_id": "E-L191-1337",
+      "source_run_directory": "experiments/kaggle-locked-repair-v1/runs/E-L191-1337"
+    },
+    {
+      "checkpoint_sha256": "10e7c6d15a1548073c419c77e6d437a5179380910463b78f2371b1a52836cd41",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/A-L-2027/final.json",
+          "sha256": "617a0595d3f06aeb50cd0a3e5ebdfcc9a6663c2b4d04b5efae1a4eefc27ec6f4",
+          "size_bytes": 2066
+        },
+        "latest.pt": {
+          "archive_path": "runs/A-L-2027/latest.pt",
+          "sha256": "10e7c6d15a1548073c419c77e6d437a5179380910463b78f2371b1a52836cd41",
+          "size_bytes": 239716747
+        },
+        "run_config.json": {
+          "archive_path": "runs/A-L-2027/run_config.json",
+          "sha256": "2a7da708cb95ee72ce1cc3d4b0f6b1d4de293219d81685fdab56ff449519ebff",
+          "size_bytes": 851
+        }
+      },
+      "run_id": "A-L-2027",
+      "source_run_directory": "experiments/kaggle-locked-repair-v1/runs/A-L-2027"
+    },
+    {
+      "checkpoint_sha256": "0eb205f509c44f2a9434b2b4ede17d68466a706d1ccef6d0fc75bdd09b761cdb",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/B-L-2027/final.json",
+          "sha256": "6c05216e47e0cbd6cfd33f309c660164cd3ddc00bd5132e676ae027951bff4e3",
+          "size_bytes": 2064
+        },
+        "latest.pt": {
+          "archive_path": "runs/B-L-2027/latest.pt",
+          "sha256": "0eb205f509c44f2a9434b2b4ede17d68466a706d1ccef6d0fc75bdd09b761cdb",
+          "size_bytes": 239717643
+        },
+        "run_config.json": {
+          "archive_path": "runs/B-L-2027/run_config.json",
+          "sha256": "abd568db3d8790345a66cbc84d8354c2e5cd475c570543c812bc448399c3ab58",
+          "size_bytes": 859
+        }
+      },
+      "run_id": "B-L-2027",
+      "source_run_directory": "experiments/kaggle-locked-repair-v1/runs/B-L-2027"
+    },
+    {
+      "checkpoint_sha256": "40d9ac9190dc175f99f9b982d545e842c660a4ff6b6362c5abf211262a5bbfc5",
+      "committed_targets": 50000000,
+      "files": {
+        "final.json": {
+          "archive_path": "runs/C-L191-2027/final.json",
+          "sha256": "68a270ce76278043afc8ad52642cce05fe0636635b3c5b0c9c2dc74b2d22543f",
+          "size_bytes": 2064
+        },
+        "latest.pt": {
+          "archive_path": "runs/C-L191-2027/latest.pt",
+          "sha256": "40d9ac9190dc175f99f9b982d545e842c660a4ff6b6362c5abf211262a5bbfc5",
+          "size_bytes": 239717643
+        },
+        "run_config.json": {
+          "archive_path": "runs/C-L191-2027/run_config.json",
+          "sha256": "0be04648c5f9051a0e032f84dd71030bda2bbf145cd1b67e5496526525c0b32b",
+          "size_bytes": 865
+        }
+      },
+      "run_id": "C-L191-2027",
+      "source_run_directory": "experiments/kaggle-locked-repair-v1/runs/C-L191-2027"
+    }
+  ]
+}
